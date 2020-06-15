@@ -1,13 +1,13 @@
 import React from 'react'
 import MainContent from "./MainContent"
-import sections from "./sections"
+import Sections from "./Sections"
 //import './App.css';
 
 function App () {
     return (
         <div>
-            <sections/>
             <MainContent/>
+            <Sections/>
         </div>
     );
 }

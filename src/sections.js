@@ -1,10 +1,13 @@
-import React from "react"
+import React from 'react'
 
-function sections() {
+function Sections() {
     return (
-        <section className="section">
-            <div class="box">Section 1</div>
+        <section class="section">
+            <div id="up-leftt"></div>
+            <div id="up-right"></div>
+            <div id="down-left"></div>
+            <div id="down-right"></div>
         </section>
     )
 }
-export default sections
+export default Sections
