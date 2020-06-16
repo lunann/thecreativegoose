@@ -11,10 +11,38 @@ body {
     top: 50%;
     width: 100%;
 }
-.sections {
-    
+.hyperlinks #up-left{
+    font-size:55px;
+    left: 0;
+    float:left;
+    position:absolute;
+    z-index: 1000;
 }
-#up-left {
+.hyperlinks #up-right{
+    font-size:55px;
+    right: 0;
+    float:right;
+    position:absolute;
+    z-index: 1000;
+}
+.hyperlinks #down-left{
+    font-size:55px;
+    left: 0;
+    float:left;
+    position:absolute;
+    bottom: 0;
+    z-index: 1000;
+}
+.hyperlinks #down-right{
+    font-size:55px;
+    right: 0;
+    bottom: 0;
+    float:right;
+    position:absolute;
+    z-index: 1000;
+}
+
+.section #up-left {
     float: left;
     background-color: green;
     width: 400px;
@@ -22,7 +50,7 @@ body {
     offset-path: path('M 80 80 m 40, 20 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0');
     animation: move 30s linear infinite;  
 }
-#up-right {
+.section #up-right {
     float: right;
     background-color: blue;
     width: 200px;
@@ -30,7 +58,7 @@ body {
     offset-path: path('M 80 80 m 40, 20 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0');
     animation: move 30s linear infinite;  
 }
-#down-left {
+.section #down-left {
     float: left;
     position:absolute;
     background-color: yellow;
@@ -41,7 +69,7 @@ body {
     offset-path: path('M 100 200 m 40, 20 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0');
     animation: move 30s linear infinite;  
 }
-#down-right {
+.section #down-right {
     float: right;
     position:absolute;
     background-color: red;
