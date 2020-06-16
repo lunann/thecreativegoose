@@ -7,11 +7,11 @@ import About from "./About"
 import MyWork from "./MyWork"
 //import './App.css';
 
-
 function App () {
     return (
         <Router>
             <div>
+            <Hyperlinks/>
                 <Switch>
                     <Route path="/" exact component={Home}/>
                     <Route path="/about" component={About}/>
@@ -24,7 +24,6 @@ function App () {
 
 const Home = () => (
     <div>
-        <Hyperlinks/>
         <MainContent/>
         <Sections/>
     </div>

@@ -3,6 +3,8 @@ body {
     padding: 0;
     font-family: sans-serif;
     overflow:hidden;
+    background: blue;
+    color: white;
 }
 .main {
     left: 0;
@@ -44,7 +46,7 @@ body {
 
 .section #up-left {
     float: left;
-    background-color: green;
+    background-color: yellow;
     width: 400px;
     height: 400px;
     offset-path: path('M 80 80 m 40, 20 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0');
@@ -52,7 +54,7 @@ body {
 }
 .section #up-right {
     float: right;
-    background-color: blue;
+    background-color: red;
     width: 200px;
     height: 200px;
     offset-path: path('M 80 80 m 40, 20 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0');
@@ -61,7 +63,7 @@ body {
 .section #down-left {
     float: left;
     position:absolute;
-    background-color: yellow;
+    background-color: skyblue;
     bottom: 0;
     left: 0;
     width: 270px;
@@ -72,7 +74,7 @@ body {
 .section #down-right {
     float: right;
     position:absolute;
-    background-color: red;
+    background-color: green;
     bottom: 0;
     right: 0;
     width: 200px;
@@ -85,4 +87,10 @@ body {
     motion-offset: 100%;
     offset-distance: 100%;
   }
+}
+.projects {
+    margin:auto;
+    width: 900px;
+    height: 800px;
+    background-color: white;
 }
