@@ -9,12 +9,12 @@ function MyWork () {
     
     const textStyle = {
         textAlign: 'center',
-        color:'black'
+        color:'black',
     }
     return (
-        <div>
-            <h1 style={textStyle}>My Work</h1>
-            <div class="projects" style={textStyle}>
+        <div style={textStyle}>
+            <h1>My Work</h1>
+            <div class="projects">
                 {myProjects} 
             </div>
         </div>

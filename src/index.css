@@ -2,16 +2,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    overflow:hidden;
     background: blue;
     color: white;
+    overflow: hidden;
+    
 }
-.main {
+.main{
     left: 0;
     position: absolute;
     text-align: center;
     top: 50%;
     width: 100%;
+    
 }
 .hyperlinks #up-left{
     font-size:55px;
@@ -93,4 +95,7 @@ body {
     width: 900px;
     height: 800px;
     background-color: white;
+}
+myProjects {
+    background-color: pink;
 }
