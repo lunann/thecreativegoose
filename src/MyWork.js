@@ -3,8 +3,17 @@ import Project from './Project'
 
 import projectsData from './projectsData'
 
-function MyWork () {
+import ScrollMenu from 'react-horizontal-scrolling-menu'
 
+//import ItemsCarousel from 'react-items-carousel'
+
+function MyWork () {
+    const Arrow = ({ text, className }) => {
+        return (
+            <div className={className}>{text}</div>
+        );
+    };
+    
     const myProjects = projectsData.map(item => <Project key={item.id} project={item}/>)
     
     const textStyle = {
@@ -14,8 +23,11 @@ function MyWork () {
     return (
         <div style={textStyle}>
             <h1>My Work</h1>
-            <div class="projects">
-                {myProjects} 
+            <div class="scrolling-container">
+                <ScrollMenu
+                    data={myProjects}
+                />
+                                        
             </div>
         </div>
     ) 

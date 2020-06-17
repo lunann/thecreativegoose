@@ -90,12 +90,14 @@ body {
     offset-distance: 100%;
   }
 }
-.projects {
-    margin:auto;
-    width: 900px;
-    height: 800px;
+.scrolling-container {
     background-color: white;
+    white-space: nowrap;
 }
-myProjects {
-    background-color: pink;
+.menu-wrapper {
+    overflow-x: scroll !important;
+}
+.menu-wrapper--inner {
+    width: auto !important;
+    transform: translate3d(0px, 0px, 0px) !important;
 }

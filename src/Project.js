@@ -2,16 +2,13 @@ import React from 'react'
 
 function Project(props){
     const projectStyle = {
-        width: 370,
+        width: 270,
         backgroundColor: 'pink',
-        float: 'left',
-        display: 'inline',
-        height: 370,
-        margin: 40,
-        
+        height: 270,
+        margin: 40,  
     }
     return (
-        <div class="project-info" style={projectStyle}>
+        <div style={projectStyle}>
             <h3>title: {props.project.title}</h3>
         </div>
     )
