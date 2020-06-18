@@ -2,102 +2,29 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: blue;
-    color: white;
+    background: white;
+    color: black;
     overflow: hidden;
-    
 }
-.main{
-    left: 0;
+:root {
+    scrollbar-color: #000000 #F5F5F5 !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    border: 1px solid black;
+	background-color: #F5F5F5; 
+    border-radius: 10px;
+    margin: 0 400px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #000000; 
+}
+.navigation-page {
     position: absolute;
     text-align: center;
-    top: 50%;
+    float: left;
     width: 100%;
-    
-}
-.hyperlinks #up-left{
-    font-size:55px;
-    left: 0;
-    float:left;
-    position:absolute;
-    z-index: 1000;
-}
-.hyperlinks #up-right{
-    font-size:55px;
-    right: 0;
-    float:right;
-    position:absolute;
-    z-index: 1000;
-}
-.hyperlinks #down-left{
-    font-size:55px;
-    left: 0;
-    float:left;
-    position:absolute;
-    bottom: 0;
-    z-index: 1000;
-}
-.hyperlinks #down-right{
-    font-size:55px;
-    right: 0;
-    bottom: 0;
-    float:right;
-    position:absolute;
-    z-index: 1000;
-}
-
-.section #up-left {
-    float: left;
-    background-color: yellow;
-    width: 400px;
-    height: 400px;
-    offset-path: path('M 80 80 m 40, 20 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0');
-    animation: move 30s linear infinite;  
-}
-.section #up-right {
-    float: right;
-    background-color: red;
-    width: 200px;
-    height: 200px;
-    offset-path: path('M 80 80 m 40, 20 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0');
-    animation: move 30s linear infinite;  
-}
-.section #down-left {
-    float: left;
-    position:absolute;
-    background-color: skyblue;
-    bottom: 0;
-    left: 0;
-    width: 270px;
-    height: 270px;
-    offset-path: path('M 100 200 m 40, 20 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0');
-    animation: move 30s linear infinite;  
-}
-.section #down-right {
-    float: right;
-    position:absolute;
-    background-color: green;
-    bottom: 0;
-    right: 0;
-    width: 200px;
-    height: 200px;
-    offset-path: path('M 80 80 m 40, 20 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0');
-    animation: move 30s linear infinite;  
-}
-@keyframes move {
-  100% { 
-    motion-offset: 100%;
-    offset-distance: 100%;
-  }
-}
-.scrolling-container {
-    background-color: white;
-    white-space: nowrap;
-}
-.menu-wrapper {
-    overflow-x: scroll !important;
-}
-.menu-wrapper--inner {
-    width: auto !important;
-    transform: translate3d(0px, 0px, 0px) !important;
 }

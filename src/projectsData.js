@@ -1,6 +1,6 @@
 const projectsData = [
     {
-        id: "1",
+        id: "Simon",
         title: "Simon",
     },
     {

@@ -1,0 +1,13 @@
+.scrolling-container {
+    background-color: white;
+    white-space: nowrap;
+}
+.menu-wrapper {
+    overflow-x: scroll !important;
+    margin-top:50px;
+}
+.menu-wrapper--inner {
+    width: auto !important;
+    transform: translate3d(0px, 0px, 0px) !important;
+    margin-bottom: 30px;
+}

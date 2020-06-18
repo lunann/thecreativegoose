@@ -2,10 +2,11 @@ import React from 'react'
 
 function About (){
     const textStyle = {
-        textAlign: 'center'
+        textAlign: 'center',
+        color: 'black'
     }
     return (
-        <div>
+        <div className="navigation-page">
             <h1 style={textStyle}>ABOUT</h1>
             <p style={textStyle}>BLANABLAALBA</p>
         </div>  

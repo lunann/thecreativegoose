@@ -1,0 +1,24 @@
+.hyperlinks-nav:hover {
+    font-family: 'Londrina Solid', cursive !important;
+}
+.hyperlinks #up-left{
+    left: 0;
+    float:left;
+    :hover {
+        color: pink;
+    }
+}
+.hyperlinks #up-right{
+    right: 0;
+    float:right;
+}
+.hyperlinks #down-left{
+    left: 0;
+    float:left;
+    bottom: 0;
+}
+.hyperlinks #down-right{
+    right: 0;
+    bottom: 0;
+    float:right;
+}

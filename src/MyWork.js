@@ -1,11 +1,8 @@
 import React from 'react'
 import Project from './Project'
-
 import projectsData from './projectsData'
-
 import ScrollMenu from 'react-horizontal-scrolling-menu'
-
-//import ItemsCarousel from 'react-items-carousel'
+import './myWork.css'
 
 function MyWork () {
     const Arrow = ({ text, className }) => {
@@ -14,20 +11,20 @@ function MyWork () {
         );
     };
     
-    const myProjects = projectsData.map(item => <Project key={item.id} project={item}/>)
-    
+    const myProjects = projectsData.map(item => <Project key={item.id} project={item}/>)                                        
+
     const textStyle = {
         textAlign: 'center',
         color:'black',
     }
+        
     return (
-        <div style={textStyle}>
+        <div style={textStyle} className="navigation-page">
             <h1>My Work</h1>
             <div class="scrolling-container">
                 <ScrollMenu
                     data={myProjects}
-                />
-                                        
+                />                     
             </div>
         </div>
     ) 

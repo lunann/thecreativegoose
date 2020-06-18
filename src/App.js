@@ -5,6 +5,7 @@ import Hyperlinks from "./Hyperlinks"
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import About from "./About"
 import MyWork from "./MyWork"
+import './fonts.css'
 
 function App () {
     return (
