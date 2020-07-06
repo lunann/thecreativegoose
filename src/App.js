@@ -25,7 +25,6 @@ function App () {
 const Home = () => (
     <div>
         <MainContent/>
-        <Sections/>
     </div>
 );
 

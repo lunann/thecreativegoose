@@ -1,3 +1,7 @@
+#projects {
+    width: 1000px;
+    margin: 0 auto;
+}
 .scrolling-container {
     background-color: white;
     white-space: nowrap;

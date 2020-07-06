@@ -17,14 +17,12 @@ function MyWork () {
         textAlign: 'center',
         color:'black',
     }
-        
+                                        
     return (
-        <div style={textStyle} className="navigation-page">
+        <div style={textStyle}>
             <h1>My Work</h1>
-            <div class="scrolling-container">
-                <ScrollMenu
-                    data={myProjects}
-                />                     
+            <div id="projects">
+                {myProjects}
             </div>
         </div>
     ) 
