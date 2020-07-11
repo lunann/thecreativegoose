@@ -1,6 +1,11 @@
-#projects {
-    width: 1000px;
-    margin: 0 auto;
+.projects {
+    text-align: center;
+    transition-timing-function: ease-in;
+}
+a.project-link:hover {
+    background-color: red !important;
+    color: white !important;
+    z-index: 10;
 }
 .scrolling-container {
     background-color: white;
@@ -14,4 +19,24 @@
     width: auto !important;
     transform: translate3d(0px, 0px, 0px) !important;
     margin-bottom: 30px;
+}
+.projectImg {
+    width: 370px;
+    height: 300px;
+    transition: '1s';
+    margin: 0;
+    position:relative;
+    display: block;
+}
+.projectImg img {
+    width: 370px;
+    height: 300px;
+}
+.projectImg img:hover {
+    content:"";
+    background: black;
+    width: 370px;
+    height: 300px;
+    position:absolute;
+    top:0;
 }

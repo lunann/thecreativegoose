@@ -4,13 +4,15 @@
 .hyperlinks #up-left{
     left: 0;
     float:left;
+    top: 0;
     :hover {
-        color: pink;
+        color: pink !important;
     }
 }
 .hyperlinks #up-right{
     right: 0;
     float:right;
+    top: 0;
 }
 .hyperlinks #down-left{
     left: 0;

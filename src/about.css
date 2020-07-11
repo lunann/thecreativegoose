@@ -1,0 +1,53 @@
+.information-container {
+    text-align: left;
+    margin: 0 auto;
+}
+.text-description-short {
+    width: 50%;
+    z-index: 5;
+}
+.text-description-short p {
+    margin-left: 200px;
+    width: 400px;
+}
+.typewriter-text {
+    margin-left: 150px;
+    width: 740px;
+    font-size: 30px;
+    position:relative;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid rgba(200, 255, 255, 1);
+    z-index: 4;
+    
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 400ms steps(44) infinite;
+}
+.img {
+    width: 50%;
+    text-align: center;    
+}
+.img img{
+    width: 600px;
+    height: 400px;    
+}
+.infoLover {
+    width: 500px;
+    height: 500px;
+}
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 740px;
+    }
+}
+@keyframes blinkTextCursor {
+    from {
+        border-right: 2px solid rgba(200, 255, 255, 1);
+    }
+    to {
+        border-right: 2px solid rgba(255, 255, 255, 0.75);
+    }
+}

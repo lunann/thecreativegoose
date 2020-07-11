@@ -6,7 +6,7 @@ import './hyperlinks.css'
 function Hyperlinks () {
     const linkStyle = {
         color: 'black',
-        position:'absolute',
+        position:'fixed',
         zIndex: 1000,
         fontSize: 45,
         fontFamily: 'Londrina Outline',

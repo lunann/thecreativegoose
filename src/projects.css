@@ -1,0 +1,41 @@
+.project-page {
+    text-align: center;
+    margin-top: 80px;
+}
+.project-page h1{
+    position: fixed;
+    margin-left: 150px !important;
+}
+.project-page-landing {
+    width: 100%;
+    display:flex;
+    transition: ease-in;
+}
+.project-info{
+    height: inherit;
+    text-align: left;
+    position: relative;
+    min-width: 50%;
+    margin-top: 100px !important;
+}
+.project-info p  {
+    width: 400px;
+}
+.front-picture {
+    float: left;
+    min-width: 50%;
+}
+.front-picture img{
+    margin-top: 100px !important;
+    height: 300px;
+    width: 550px;
+    margin:50px;
+    margin-left: 200px !important;
+}
+.img2 {
+    height: 350px;
+    display: inline-block;
+    float: right;
+    margin-right:50px !important;
+    margin-top: 100px !important;
+}
