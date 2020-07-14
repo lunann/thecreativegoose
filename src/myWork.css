@@ -1,42 +1,22 @@
-.projects {
-    text-align: center;
+.projects:hover {
     transition-timing-function: ease-in;
 }
 a.project-link:hover {
-    background-color: red !important;
-    color: white !important;
-    z-index: 10;
-}
-.scrolling-container {
-    background-color: white;
-    white-space: nowrap;
-}
-.menu-wrapper {
-    overflow-x: scroll !important;
-    margin-top:50px;
-}
-.menu-wrapper--inner {
-    width: auto !important;
-    transform: translate3d(0px, 0px, 0px) !important;
-    margin-bottom: 30px;
+    color: #906fa8 !important;
 }
 .projectImg {
-    width: 370px;
+    width: 300px;
     height: 300px;
-    transition: '1s';
     margin: 0;
-    position:relative;
     display: block;
+    filter: grayscale(100%);
+    border: 1px solid black;
+    transition: 1s;
 }
 .projectImg img {
     width: 370px;
     height: 300px;
 }
-.projectImg img:hover {
-    content:"";
-    background: black;
-    width: 370px;
-    height: 300px;
-    position:absolute;
-    top:0;
+.projectImg:hover {
+    filter: grayscale(0%);
 }

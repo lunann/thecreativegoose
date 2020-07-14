@@ -3,6 +3,7 @@ import './mainContent.css'
 import landingPageImg from './landingPageImg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
 
 function MainContent () {
     AOS.init()
@@ -12,14 +13,14 @@ function MainContent () {
     return (
         <div class="main">
             <div className="textLanding">
-                <h1>Hej, I'm Annika.</h1>
-                <h2>the creative goose</h2>
+                <h1 data-aos="fade-left" data-aos-duration="1000">I'm Annika.</h1>
+                <h2 data-aos="fade-left" data-aos-duration="1000">A web designer located at <i>58.411557, 15.620607</i></h2>
             </div>
+            <img className="test111" data-aos="fade-right" data-aos-duration="2500" src={"/img/"+image01.src}/>
             <div className="img">
                 <img className="manImg" data-aos="fade-right" data-aos-duration="2500" src={"/img/"+image01.src}/>
                 <div  className="borderImg" data-aos="fade-up" data-aos-duration="2000"></div>
             </div>
-            
         </div>
     )
 }

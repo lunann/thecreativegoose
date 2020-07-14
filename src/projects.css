@@ -1,6 +1,6 @@
 .project-page {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 .project-page h1{
     position: fixed;
@@ -12,30 +12,72 @@
     transition: ease-in;
 }
 .project-info{
-    height: inherit;
+    height: 330px;
     text-align: left;
     position: relative;
     min-width: 50%;
     margin-top: 100px !important;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+.detail-info {
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+    min-width: 500px;
+    text-align: center;
+    margin-top: 130px !important;
+    margin-right: 100px;
+}
+.detail-info p {
+    text-align: justify;
 }
 .project-info p  {
-    width: 400px;
+    margin-top: 30px;
+    width: 500px;
+    text-align: justify;
 }
-.front-picture {
-    float: left;
+.project-info h3 {
+    font-family: 'Forum';
+    font-size: 17px;
+}
+.info03 {
+    font-weight: 200;
+    min-width: 600px;
+    text-align: justify;
+    margin-bottom: 170px !important;
+}
+.info03 h2 {
+    font-weight: bold;
+    font-family: 'Forum';
+    font-size: 17px;
+    text-align: center;
+}
+.info03 p {
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.front-picture {;
     min-width: 50%;
+    text-align: right;
 }
 .front-picture img{
     margin-top: 100px !important;
-    height: 300px;
-    width: 550px;
+    height: 330px;
+    width: auto;
     margin:50px;
-    margin-left: 200px !important;
+    margin-right: 70px !important;
 }
 .img2 {
-    height: 350px;
+    height: 330px;
     display: inline-block;
     float: right;
-    margin-right:50px !important;
+    margin-right:100px !important;
     margin-top: 100px !important;
+}
+.img3 {
+    padding-top: 50px;
+    width: 500px;
+    margin: 0 auto;
 }

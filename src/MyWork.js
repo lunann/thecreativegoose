@@ -14,9 +14,7 @@ function MyWork () {
         return (
             <div className={className}>{text}</div>
         );
-    };
-    
-    //const myProjects = projectsData.map(item => <Project key={item.id} project={item}/>)                             
+    };                           
 
     const textStyle = {
         paddingTop: 100,
@@ -25,21 +23,28 @@ function MyWork () {
     }
     const projectStyle = {
         display:'inline-block',
-        width: 370,
+        width: 300,
         height: 300,
         margin: 20,
-        transition: '1s',
         textDecoration: 'none',
         color: 'black',
-        backgroundColor: 'pink',
-        position: 'relative',
+        marginTop: '30px',
+    }
+    const headerStyle = {
+        fontSize: '70px',
+        fontFamily: 'Forum',
+        color: '#d99830',
+    }
+    const projectNameStyle = {
+        fontFamily: 'Source Sans Pro',
+        fontSize: '17px',
+        marginTop: '10px',
     }
     return (
         <div style={textStyle} className="landing-page-my-work">
-            <h1 data-aos="fade-down" data-aos-duration="600">My Work</h1>
-            <h2 data-aos="fade-down" data-aos-duration="600">Blablablablablablablablablabl</h2>
+            <h2 style={headerStyle} data-aos="fade-down" data-aos-duration="1000">Click on the project to know more</h2>
             {projectsData.map(({ title, id, src }) => (
-                <Link to={"/mywork/"+id}  style={projectStyle} className="project-link" data-aos="fade-up" data-aos-duration="200"><img src={"/img/"+src} className="projectImg"/>{title}</Link>
+                <Link to={"/mywork/"+id}  style={projectStyle} className="project-link" data-aos="fade-up" data-aos-duration="500"><img src={"/img/"+src} className="projectImg"/><p style={projectNameStyle}>{title}</p></Link>
             ))}
             
         </div>
