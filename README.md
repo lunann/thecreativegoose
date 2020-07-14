@@ -1,2 +1,0 @@
-# thecreativegoose
-Annika Lundberg portfolio
