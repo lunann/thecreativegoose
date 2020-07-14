@@ -14,6 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+
   "/thecreativegoose/precache-manifest.c8ba3ef2faa5f3824d524c85b7fef2b3.js"
 );
 
@@ -35,7 +36,11 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/thecreativegoose/index.html"), {
   
+<<<<<<< HEAD
 
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
 
+=======
+  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
+>>>>>>> 151e6cf9... Updates
 });
