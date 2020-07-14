@@ -33,21 +33,8 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/index.html"), {
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/thecreativegoose/index.html"), {
   
   blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
-
-=======
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/thecreativegoose/index.html"), {
-  
-  blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
->>>>>>> 159e6d14... Updates
-=======
-workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/thecreativegoose/index.html"), {
-  
-  blacklist: [/^\/_/,/\/[^\/?]+\.[^\/]+$/],
->>>>>>> 151e6cf9... Updates
 });
