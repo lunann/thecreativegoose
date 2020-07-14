@@ -3,7 +3,7 @@ import MainContent from "./MainContent"
 import Sections from "./Sections"
 import Hyperlinks from "./Hyperlinks"
 import Project from './Project'
-import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
+import {HashRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import About from "./About"
 import MyWork from "./MyWork"
 import Oups from "./Oups"
