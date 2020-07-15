@@ -39,6 +39,7 @@
     "static/media/spotifyLogo.png": "/static/media/spotifyLogo.b818d523.png",
     "static/media/thisIsMe1.jpg": "/static/media/thisIsMe1.982cf19f.jpg",
     "static/media/topthree.jpg": "/static/media/topthree.9675ef4d.jpg,
+
   },
   "entrypoints": [
     "static/js/runtime-main.7209e810.js",
