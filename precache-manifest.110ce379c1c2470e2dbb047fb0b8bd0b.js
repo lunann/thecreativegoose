@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "526b2b20c6fc8baef812b7b2470b69dd",
+    "revision": "2d1c1815bd3df84eb606dfe1a0bbfc0a",
     "url": "/thecreativegoose/index.html"
   },
   {
-    "revision": "6b628be1749782e4576f",
+    "revision": "b14125df451a0258f9a8",
     "url": "/thecreativegoose/static/css/2.046e01ea.chunk.css"
   },
   {
-    "revision": "627a54eb8e058d094b1a",
-    "url": "/thecreativegoose/static/css/main.5a8029f3.chunk.css"
+    "revision": "5ccbab4ce1ad7f71e907",
+    "url": "/thecreativegoose/static/css/main.e376946c.chunk.css"
   },
   {
-    "revision": "6b628be1749782e4576f",
-    "url": "/thecreativegoose/static/js/2.dbbac4db.chunk.js"
+    "revision": "b14125df451a0258f9a8",
+    "url": "/thecreativegoose/static/js/2.807204c2.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/thecreativegoose/static/js/2.dbbac4db.chunk.js.LICENSE.txt"
+    "url": "/thecreativegoose/static/js/2.807204c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "627a54eb8e058d094b1a",
-    "url": "/thecreativegoose/static/js/main.1cd6c19f.chunk.js"
+    "revision": "5ccbab4ce1ad7f71e907",
+    "url": "/thecreativegoose/static/js/main.c04d3231.chunk.js"
   },
   {
     "revision": "d4c1545282a78c3b7f39",
@@ -54,14 +54,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3149e315c6e428d4dffcbc4d6c884796",
     "url": "/thecreativegoose/static/media/annikalundberg.3149e315.pdf"
-  },
-  {
-    "revision": "ed629da291fcdbb66f25675534e79de3",
-    "url": "/thecreativegoose/static/media/apelsin.ed629da2.jpg"
-  },
-  {
-    "revision": "ed629da291fcdbb66f25675534e79de3",
-    "url": "/thecreativegoose/static/media/apelsin1.ed629da2.jpg"
   },
   {
     "revision": "9a2a044fdc37d61fbe90d2eac4675e2e",
