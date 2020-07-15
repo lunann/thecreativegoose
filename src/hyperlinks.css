@@ -25,9 +25,6 @@ a.hyperlinks-nav:hover {
     bottom: 0;
     float:right;
 }
-.external-links {
-    text-align: center;
-}
 .text-2 img, .text-3 img, .text-4 img{
     width: 15px;
     z-index: 1000;

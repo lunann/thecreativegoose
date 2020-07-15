@@ -27,13 +27,12 @@ function Hyperlinks () {
             <Link className="hyperlinks-nav" id="up-right" style={linkStyle} to='/mywork'>my work</Link>
             <a className="hyperlinks-nav" id="down-left" style={linkStyle} href={pdf} target='_blank'>resume</a>
             <a className="hyperlinks-nav" id="down-right" style={linkStyle} href='mailto:info.thecreativegoose@gmail.com'>contact</a>
-            
-            <div className="external-links">
+    
                 <Link to="/" className="text-1"><p>the creative goose</p></Link>
                 <a className="text-2" id="2" href={spotify.link} style={linkStyle} target='_blank'><img src={spotify.src}/></a>
                 <a className="text-3" id="3" style={linkStyle} href={instagram.link} target='_blank'><img src={instagram.src}/></a>
                 <a className="text-4" id="4" style={linkStyle} href={linkedIn.link} target='_blank'><img src={linkedIn.src}/></a>
-            </div>
+            
         </div>
     )
 }
