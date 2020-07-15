@@ -35,7 +35,7 @@ function Project({match}){
         <h1 style={headerStyle} data-aos="fade-right" data-aos-duration="2000">{project.title}</h1>
             <div className="project-page-landing">
                 <div className="front-picture" data-aos="fade-right" data-aos-duration="2000">
-                    <img src={"/img/"+frontImage.src}/> 
+                    <img src={frontImage.src}/> 
                 </div>
                 <div className="project-info" data-aos="fade-left" data-aos-duration="1000">
                     <h3>{project.header}</h3>
@@ -43,17 +43,17 @@ function Project({match}){
                     <span style={scrollStyle}><p>Scroll to know more &nbsp;&nbsp;&nbsp;></p></span>
                 </div>
                 <div>
-                    <img src={"/img/"+Image02.src} className="img2"/> 
+                    <img src={Image02.src} className="img2"/> 
                 </div>
                 <span className="detail-info"><p>{project.detail}</p>
                     <span className="info03">
                         <h2>Colour palette</h2>
-                        <img src={"/img/"+Image04.src} className="img3"/>
+                        <img src={Image04.src} className="img3"/>
                     </span>
                 </span>
-                <span><img src={"/img/"+Image03.src} className="img2"/></span>
-                <span><img src={"/img/"+Image05.src} className="img2"/></span>
-                <span><img src={"/img/"+Image06.src} className="img2"/></span>
+                <span><img src={Image03.src} className="img2"/></span>
+                <span><img src={Image05.src} className="img2"/></span>
+                <span><img src={Image06.src} className="img2"/></span>
             </div>
         </div>
     )    

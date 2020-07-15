@@ -44,7 +44,7 @@ function MyWork () {
         <div style={textStyle} className="landing-page-my-work">
             <h2 style={headerStyle} data-aos="fade-down" data-aos-duration="1000">Click on the project to know more</h2>
             {projectsData.map(({ title, id, src }) => (
-                <Link to={"/mywork/"+id}  style={projectStyle} className="project-link" data-aos="fade-up" data-aos-duration="500"><img src={"/img/"+src} className="projectImg"/><p style={projectNameStyle}>{title}</p></Link>
+                <Link to={"/mywork/"+id}  style={projectStyle} className="project-link" data-aos="fade-up" data-aos-duration="500"><img src={src} className="projectImg"/><p style={projectNameStyle}>{title}</p></Link>
             ))}
             
         </div>

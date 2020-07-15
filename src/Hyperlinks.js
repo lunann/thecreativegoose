@@ -30,9 +30,9 @@ function Hyperlinks () {
             
             <div className="external-links">
                 <span className="text-1"><Link to="/"><p>the creative goose</p></Link></span>
-                <span className="text-2" id="2" style={linkStyle}><a href={spotify.link}><img src={"/img/"+spotify.src}/></a></span>
-                <span className="text-3" id="3" style={linkStyle}><a href={instagram.link}><img src={"/img/"+instagram.src}/></a></span>
-                <span className="text-4" id="4" style={linkStyle}><a href={linkedIn.link}><img src={"/img/"+linkedIn.src}/></a></span>
+                <span className="text-2" id="2" style={linkStyle}><a href={spotify.link}><img src={spotify.src}/></a></span>
+                <span className="text-3" id="3" style={linkStyle}><a href={instagram.link}><img src={instagram.src}/></a></span>
+                <span className="text-4" id="4" style={linkStyle}><a href={linkedIn.link}><img src={linkedIn.src}/></a></span>
             </div>
         </div>
     )

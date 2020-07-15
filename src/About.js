@@ -34,10 +34,10 @@ function About (){
                     <p style={infoTextStyle} data-aos="fade-right" data-aos-duration="1500" data-aos-delay="3000">{information.infoText}</p> 
                 </Col>
                 <Col xs="6" className="img" id="image01" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="3000">
-                    <img src={"/img/"+information.src}/>
+                    <img src={information.src}/>
                 </Col>
                 <Col xs="6" className="row-2" id="image02" data-aos="fade-right" data-aos-duration="1500">
-                    <img src="/img/graphic.png"/>
+                    <img src={information.srcImg}/>
                 </Col>
                 <Col xs="6" className="row-2" id="infoLove" data-aos="fade-left">
                     <h3>{information.header}</h3>

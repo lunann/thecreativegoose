@@ -1,3 +1,6 @@
+import aboutFrontImg from './asset/img/thisIsMe1.jpg';
+import graphic from './asset/img/graphic.png';
+
 const informationData = [
     {
         id: "Annika",
@@ -7,7 +10,8 @@ const informationData = [
         header: "Minimalistic / Typography / Colour / Form ",
         question: "What I can help you with",
         infoLove: "I’m a web developer that focus on minimalistic design and works a lot with contrast and forms. Typography and placement of different objects can create an impact even though keeping the design simple, and this is what I strive to achieve when creating new content. In my designs I also try to avoid to use the colour black more than needed because I believe life is too colorful to not use it. A business has an identity and no business is the other alike, I therefore always create unique websites and not from any templates to make you represent what you and your company stand for.",
-        src: "thisIsMe1.jpg"
+        src: aboutFrontImg,
+        srcImg: graphic,
     },
 ]
 export default informationData
