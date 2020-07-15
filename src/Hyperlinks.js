@@ -33,7 +33,6 @@ function Hyperlinks () {
                 <a className="text-2" id="2" href={spotify.link} style={linkStyle} target='_blank'><img src={spotify.src}/></a>
                 <a className="text-3" id="3" style={linkStyle} href={instagram.link} target='_blank'><img src={instagram.src}/></a>
                 <a className="text-4" id="4" style={linkStyle} href={linkedIn.link} target='_blank'><img src={linkedIn.src}/></a>
-            
         </div>
     )
 }

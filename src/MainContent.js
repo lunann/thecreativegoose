@@ -5,11 +5,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Link } from 'react-router-dom';
 
-import testPic from './test2.js';
-
-import test from './test.js';
-import apelsin from './apelsin.jpg';
-
 function MainContent () {
     AOS.init()
     
@@ -17,7 +12,6 @@ function MainContent () {
     
     return (
         <div class="main">            
-        
             <div className="textLanding">  
                 <h1 data-aos="fade-left" data-aos-duration="1000">I'm Annika.</h1>
                 <h2 data-aos="fade-left" data-aos-duration="1000">A web designer located at <i>58.411557, 15.620607</i></h2>
