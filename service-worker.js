@@ -36,5 +36,8 @@ workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/thecreativegoose/index.html"), {
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
+<<<<<<< HEAD
 
+=======
+>>>>>>> 13dd643a... Updates
 });
