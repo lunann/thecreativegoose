@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/thecreativegoose/static/css/main.9085d3b7.chunk.css",
-    "main.js": "/thecreativegoose/static/js/main.414a0e54.chunk.js",
-    "main.js.map": "/thecreativegoose/static/js/main.414a0e54.chunk.js.map",
+    "main.css": "/thecreativegoose/static/css/main.4ff8caa8.chunk.css",
+    "main.js": "/thecreativegoose/static/js/main.5eb621e5.chunk.js",
+    "main.js.map": "/thecreativegoose/static/js/main.5eb621e5.chunk.js.map",
     "runtime-main.js": "/thecreativegoose/static/js/runtime-main.dbc200b3.js",
     "runtime-main.js.map": "/thecreativegoose/static/js/runtime-main.dbc200b3.js.map",
-    "static/css/2.aec6ccec.chunk.css": "/thecreativegoose/static/css/2.aec6ccec.chunk.css",
-    "static/js/2.b7d2ce17.chunk.js": "/thecreativegoose/static/js/2.b7d2ce17.chunk.js",
-    "static/js/2.b7d2ce17.chunk.js.map": "/thecreativegoose/static/js/2.b7d2ce17.chunk.js.map",
+    "static/css/2.046e01ea.chunk.css": "/thecreativegoose/static/css/2.046e01ea.chunk.css",
+    "static/js/2.50e20497.chunk.js": "/thecreativegoose/static/js/2.50e20497.chunk.js",
+    "static/js/2.50e20497.chunk.js.map": "/thecreativegoose/static/js/2.50e20497.chunk.js.map",
     "index.html": "/thecreativegoose/index.html",
-    "precache-manifest.c8ba3ef2faa5f3824d524c85b7fef2b3.js": "/thecreativegoose/precache-manifest.c8ba3ef2faa5f3824d524c85b7fef2b3.js",
+    "precache-manifest.87c433db89eaf763d1848de68c174a80.js": "/thecreativegoose/precache-manifest.87c433db89eaf763d1848de68c174a80.js",
     "service-worker.js": "/thecreativegoose/service-worker.js",
-    "static/css/2.aec6ccec.chunk.css.map": "/thecreativegoose/static/css/2.aec6ccec.chunk.css.map",
-    "static/css/main.9085d3b7.chunk.css.map": "/thecreativegoose/static/css/main.9085d3b7.chunk.css.map",
-    "static/js/2.b7d2ce17.chunk.js.LICENSE.txt": "/thecreativegoose/static/js/2.b7d2ce17.chunk.js.LICENSE.txt",
+    "static/css/2.046e01ea.chunk.css.map": "/thecreativegoose/static/css/2.046e01ea.chunk.css.map",
+    "static/css/main.4ff8caa8.chunk.css.map": "/thecreativegoose/static/css/main.4ff8caa8.chunk.css.map",
+    "static/js/2.50e20497.chunk.js.LICENSE.txt": "/thecreativegoose/static/js/2.50e20497.chunk.js.LICENSE.txt",
     "static/media/annikalundberg.pdf": "/thecreativegoose/static/media/annikalundberg.3149e315.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.dbc200b3.js",
-    "static/css/2.aec6ccec.chunk.css",
-    "static/js/2.b7d2ce17.chunk.js",
-    "static/css/main.9085d3b7.chunk.css",
-    "static/js/main.414a0e54.chunk.js"
+    "static/css/2.046e01ea.chunk.css",
+    "static/js/2.50e20497.chunk.js",
+    "static/css/main.4ff8caa8.chunk.css",
+    "static/js/main.5eb621e5.chunk.js"
   ]
 }
