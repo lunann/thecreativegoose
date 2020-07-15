@@ -1,6 +1,5 @@
 import React from 'react'
 import MainContent from "./MainContent"
-import Sections from "./Sections"
 import Hyperlinks from "./Hyperlinks"
 import Project from './Project'
 import {HashRouter as Router, Switch, Route, Redirect} from 'react-router-dom'

@@ -29,10 +29,10 @@ function Hyperlinks () {
             <a className="hyperlinks-nav" id="down-right" style={linkStyle} href='mailto:info.thecreativegoose@gmail.com'>contact</a>
             
             <div className="external-links">
-                <span className="text-1"><Link to="/"><p>the creative goose</p></Link></span>
-                <span className="text-2" id="2" style={linkStyle}><a href={spotify.link}><img src={spotify.src}/></a></span>
-                <span className="text-3" id="3" style={linkStyle}><a href={instagram.link}><img src={instagram.src}/></a></span>
-                <span className="text-4" id="4" style={linkStyle}><a href={linkedIn.link}><img src={linkedIn.src}/></a></span>
+                <Link to="/" className="text-1"><p>the creative goose</p></Link>
+                <a className="text-2" id="2" href={spotify.link} style={linkStyle} target='_blank'><img src={spotify.src}/></a>
+                <a className="text-3" id="3" style={linkStyle} href={instagram.link} target='_blank'><img src={instagram.src}/></a>
+                <a className="text-4" id="4" style={linkStyle} href={linkedIn.link} target='_blank'><img src={linkedIn.src}/></a>
             </div>
         </div>
     )
