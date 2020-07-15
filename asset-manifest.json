@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/thecreativegoose/static/css/main.e376946c.chunk.css",
+    "main.css": "/thecreativegoose/static/css/main.992b3c88.chunk.css",
     "main.js": "/thecreativegoose/static/js/main.c04d3231.chunk.js",
     "main.js.map": "/thecreativegoose/static/js/main.c04d3231.chunk.js.map",
     "runtime-main.js": "/thecreativegoose/static/js/runtime-main.dbc200b3.js",
@@ -9,10 +9,10 @@
     "static/js/2.807204c2.chunk.js": "/thecreativegoose/static/js/2.807204c2.chunk.js",
     "static/js/2.807204c2.chunk.js.map": "/thecreativegoose/static/js/2.807204c2.chunk.js.map",
     "index.html": "/thecreativegoose/index.html",
-    "precache-manifest.110ce379c1c2470e2dbb047fb0b8bd0b.js": "/thecreativegoose/precache-manifest.110ce379c1c2470e2dbb047fb0b8bd0b.js",
+    "precache-manifest.3d303e2b0cd68c64be93fcf19d579c7c.js": "/thecreativegoose/precache-manifest.3d303e2b0cd68c64be93fcf19d579c7c.js",
     "service-worker.js": "/thecreativegoose/service-worker.js",
     "static/css/2.046e01ea.chunk.css.map": "/thecreativegoose/static/css/2.046e01ea.chunk.css.map",
-    "static/css/main.e376946c.chunk.css.map": "/thecreativegoose/static/css/main.e376946c.chunk.css.map",
+    "static/css/main.992b3c88.chunk.css.map": "/thecreativegoose/static/css/main.992b3c88.chunk.css.map",
     "static/js/2.807204c2.chunk.js.LICENSE.txt": "/thecreativegoose/static/js/2.807204c2.chunk.js.LICENSE.txt",
     "static/media/36.jpg": "/thecreativegoose/static/media/36.7ba747ef.jpg",
     "static/media/36palette.jpg": "/thecreativegoose/static/media/36palette.88f475b7.jpg",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.7209e810.js",
     "static/css/2.046e01ea.chunk.css",
     "static/js/2.807204c2.chunk.js",
-    "static/css/main.e376946c.chunk.css",
+    "static/css/main.992b3c88.chunk.css",
     "static/js/main.c04d3231.chunk.js"
   ]
 }
