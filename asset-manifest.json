@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/thecreativegoose/static/css/main.4ff8caa8.chunk.css",
-    "main.js": "/thecreativegoose/static/js/main.5eb621e5.chunk.js",
-    "main.js.map": "/thecreativegoose/static/js/main.5eb621e5.chunk.js.map",
+    "main.js": "/thecreativegoose/static/js/main.531c2657.chunk.js",
+    "main.js.map": "/thecreativegoose/static/js/main.531c2657.chunk.js.map",
     "runtime-main.js": "/thecreativegoose/static/js/runtime-main.dbc200b3.js",
     "runtime-main.js.map": "/thecreativegoose/static/js/runtime-main.dbc200b3.js.map",
     "static/css/2.046e01ea.chunk.css": "/thecreativegoose/static/css/2.046e01ea.chunk.css",
-    "static/js/2.50e20497.chunk.js": "/thecreativegoose/static/js/2.50e20497.chunk.js",
-    "static/js/2.50e20497.chunk.js.map": "/thecreativegoose/static/js/2.50e20497.chunk.js.map",
+    "static/js/2.97325d9b.chunk.js": "/thecreativegoose/static/js/2.97325d9b.chunk.js",
+    "static/js/2.97325d9b.chunk.js.map": "/thecreativegoose/static/js/2.97325d9b.chunk.js.map",
     "index.html": "/thecreativegoose/index.html",
-    "precache-manifest.87c433db89eaf763d1848de68c174a80.js": "/thecreativegoose/precache-manifest.87c433db89eaf763d1848de68c174a80.js",
+    "precache-manifest.8e5d5645bf314955cac3dca81d6c0012.js": "/thecreativegoose/precache-manifest.8e5d5645bf314955cac3dca81d6c0012.js",
     "service-worker.js": "/thecreativegoose/service-worker.js",
     "static/css/2.046e01ea.chunk.css.map": "/thecreativegoose/static/css/2.046e01ea.chunk.css.map",
     "static/css/main.4ff8caa8.chunk.css.map": "/thecreativegoose/static/css/main.4ff8caa8.chunk.css.map",
-    "static/js/2.50e20497.chunk.js.LICENSE.txt": "/thecreativegoose/static/js/2.50e20497.chunk.js.LICENSE.txt",
-    "static/media/annikalundberg.pdf": "/thecreativegoose/static/media/annikalundberg.3149e315.pdf"
+    "static/js/2.97325d9b.chunk.js.LICENSE.txt": "/thecreativegoose/static/js/2.97325d9b.chunk.js.LICENSE.txt",
+    "static/media/annikalundberg.pdf": "/thecreativegoose/static/media/annikalundberg.3149e315.pdf",
+    "static/media/apelsin.jpg": "/thecreativegoose/static/media/apelsin.ed629da2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.dbc200b3.js",
     "static/css/2.046e01ea.chunk.css",
-    "static/js/2.50e20497.chunk.js",
+    "static/js/2.97325d9b.chunk.js",
     "static/css/main.4ff8caa8.chunk.css",
-    "static/js/main.5eb621e5.chunk.js"
+    "static/js/main.531c2657.chunk.js"
   ]
 }
