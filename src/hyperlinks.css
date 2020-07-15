@@ -28,13 +28,11 @@ a.hyperlinks-nav:hover {
 .text-2 img, .text-3 img, .text-4 img{
     width: 15px;
     z-index: 1000;
-    opacity: 80% !important;
 }
 .text-1{
     left: 50%;
     margin-left: -67px;
     z-index: 1000;
-    opacity: 80 !important;
 }
 .text-1 {
     position: fixed;
@@ -44,7 +42,6 @@ a.hyperlinks-nav:hover {
     font-size: 15px !important;
     top: 30px;
     width:133px;
-    opacity: 80%;
 }
 .text-1 a {
     text-decoration: none !important;
