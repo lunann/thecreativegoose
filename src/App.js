@@ -1,11 +1,11 @@
 import React from 'react'
-import MainContent from "./MainContent"
-import Hyperlinks from "./Hyperlinks"
-import Project from './Project'
-import {HashRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
-import About from "./About"
-import MyWork from "./MyWork"
-import Oups from "./Oups"
+import MainContent from "./Components/MainContent"
+import Hyperlinks from "./Components/Hyperlinks"
+import Project from './Components/Project'
+import {HashRouter as Router, Switch, Route} from 'react-router-dom'
+import About from "./Components/About"
+import MyWork from "./Components/MyWork"
+import Oups from "./Components/Oups"
 import './fonts.css'
 
 function App () {
@@ -32,9 +32,3 @@ const Home = () => (
 );
 
 export default App
-
-//renderProject = (routerProps) => {
-//    let projectId = parseInt(routerProps.match.params.id)
-//    let foundProject = this.state.projects.find(projectObj => projectObj.id === projectId)
-//    return (foundProject ? <Project project={foundProject}/> : <Oups/>)
-//}

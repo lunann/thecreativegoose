@@ -1,5 +1,5 @@
-import aboutFrontImg from './asset/img/thisIsMe1.jpg';
-import graphic from './asset/img/graphic.png';
+import aboutFrontImg from '../asset/img/thisIsMe1.jpg';
+import graphic from '../asset/img/graphic.png';
 
 const informationData = [
     {

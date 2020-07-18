@@ -1,16 +1,16 @@
-import img36 from './asset/img/36.jpg';
-import imgLivaLogo from './asset/img/livaLogo.jpg';
-import letterH from './asset/img/H.jpg';
-import letterD from './asset/img/D.jpg';
-import letterQ from './asset/img/Q.jpg';
-import letter9 from './asset/img/9.jpg';
-import palette36 from './asset/img/36palette.jpg';
+import img36 from '../asset/img/36.jpg';
+import imgLivaLogo from '../asset/img/livaLogo.jpg';
+import letterH from '../asset/img/H.jpg';
+import letterD from '../asset/img/D.jpg';
+import letterQ from '../asset/img/Q.jpg';
+import letter9 from '../asset/img/9.jpg';
+import palette36 from '../asset/img/36palette.jpg';
 
-import imgLiva from './asset/img/livafront.jpg';
-import detail01 from './asset/img/detail01.jpg';
-import detail02 from './asset/img/detail02.jpg';
-import detail03 from './asset/img/detail03.jpg';
-import paletteLiva from './asset/img/livaPalette.jpg';
+import imgLiva from '../asset/img/livafront.jpg';
+import detail01 from '../asset/img/detail01.jpg';
+import detail02 from '../asset/img/detail02.jpg';
+import detail03 from '../asset/img/detail03.jpg';
+import paletteLiva from '../asset/img/livaPalette.jpg';
 
 const projectsData = [
     {
@@ -91,8 +91,7 @@ const projectsData = [
                id: "6",
                src: detail03,
                title: "9letter",
-           }
-            
+           }  
         ]
     },  
 ]

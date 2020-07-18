@@ -1,0 +1,56 @@
+.myWorkPage {
+    margin-top: 100px;
+    text-align: center;
+    color:black;
+}
+.myWorkPage h2 {
+    font-size: 70px;
+    font-family: "Forum";
+    color: #d99830;
+}
+.myWorkPage a {
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    margin-top: 5vh;
+}
+.myWorkPage a p {
+    font-family: 'Source Sans Pro';
+    font-size: 17px;
+    margin-top: 10px;
+}
+.projects:hover {
+    transition-timing-function: ease-in;
+}
+a.project-link:hover {
+    color: #906fa8 !important;
+}
+.projectImg {
+    width: 300px;
+    height: 300px;
+    margin: 0;
+    display: block;
+    filter: grayscale(100%);
+    border: 1px solid black;
+    transition: 1s;
+}
+.projectImg img {
+    width: 370px;
+    height: 300px;
+}
+.projectImg:hover {
+    filter: grayscale(0%);
+}
+@media screen and (max-width: 800px) { 
+    .myWorkPage h2 {
+        font-size: 40px;
+    }
+    .project-link {
+        width: 230px;
+        height: auto;
+    }
+
+}
