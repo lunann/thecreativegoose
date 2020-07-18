@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33836d3629414e879e9ec23682afb70b",
+    "revision": "0aa2a55d99f4fef9e00a068701aa91fb",
     "url": "/thecreativegoose/index.html"
   },
   {
-    "revision": "b14125df451a0258f9a8",
+    "revision": "ceb198c71300f1e79ee8",
     "url": "/thecreativegoose/static/css/2.046e01ea.chunk.css"
   },
   {
-    "revision": "6853e79fa5fa8e686777",
-    "url": "/thecreativegoose/static/css/main.992b3c88.chunk.css"
+    "revision": "ae0744826b1807840f6b",
+    "url": "/thecreativegoose/static/css/main.5dba4352.chunk.css"
   },
   {
-    "revision": "b14125df451a0258f9a8",
-    "url": "/thecreativegoose/static/js/2.807204c2.chunk.js"
+    "revision": "ceb198c71300f1e79ee8",
+    "url": "/thecreativegoose/static/js/2.115c4a8d.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/thecreativegoose/static/js/2.807204c2.chunk.js.LICENSE.txt"
+    "url": "/thecreativegoose/static/js/2.115c4a8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6853e79fa5fa8e686777",
-    "url": "/thecreativegoose/static/js/main.c04d3231.chunk.js"
+    "revision": "ae0744826b1807840f6b",
+    "url": "/thecreativegoose/static/js/main.db27e762.chunk.js"
   },
   {
     "revision": "d4c1545282a78c3b7f39",
     "url": "/thecreativegoose/static/js/runtime-main.dbc200b3.js"
   },
   {
-    "revision": "7ba747efa8825108ccd7d3eca8b88f14",
-    "url": "/thecreativegoose/static/media/36.7ba747ef.jpg"
+    "revision": "2e02909310ce3d2912f85ab252168662",
+    "url": "/thecreativegoose/static/media/36.2e029093.jpg"
   },
   {
     "revision": "88f475b7d1dcdba95ca3315bf56981f4",
@@ -76,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/thecreativegoose/static/media/instagramLogo.d883c388.png"
   },
   {
-    "revision": "1b2b64a25e63726c63fcb5530c823400",
-    "url": "/thecreativegoose/static/media/landingPage1.1b2b64a2.jpg"
+    "revision": "eb7e54a6abb31e3578302b9c9e0bdcda",
+    "url": "/thecreativegoose/static/media/landingPage1.eb7e54a6.jpg"
   },
   {
     "revision": "c3804d49dd0de2c80cc1b39d1599439e",
