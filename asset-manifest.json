@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/thecreativegoose/static/css/main.d9a25d19.chunk.css",
-    "main.js": "/thecreativegoose/static/js/main.db27e762.chunk.js",
-    "main.js.map": "/thecreativegoose/static/js/main.db27e762.chunk.js.map",
+    "main.css": "/thecreativegoose/static/css/main.3022d0ad.chunk.css",
+    "main.js": "/thecreativegoose/static/js/main.92efe293.chunk.js",
+    "main.js.map": "/thecreativegoose/static/js/main.92efe293.chunk.js.map",
     "runtime-main.js": "/thecreativegoose/static/js/runtime-main.dbc200b3.js",
     "runtime-main.js.map": "/thecreativegoose/static/js/runtime-main.dbc200b3.js.map",
     "static/css/2.046e01ea.chunk.css": "/thecreativegoose/static/css/2.046e01ea.chunk.css",
-    "static/js/2.115c4a8d.chunk.js": "/thecreativegoose/static/js/2.115c4a8d.chunk.js",
-    "static/js/2.115c4a8d.chunk.js.map": "/thecreativegoose/static/js/2.115c4a8d.chunk.js.map",
+    "static/js/2.7b430a84.chunk.js": "/thecreativegoose/static/js/2.7b430a84.chunk.js",
+    "static/js/2.7b430a84.chunk.js.map": "/thecreativegoose/static/js/2.7b430a84.chunk.js.map",
     "index.html": "/thecreativegoose/index.html",
-    "precache-manifest.1915da5991e6e573efea63a9e8177982.js": "/thecreativegoose/precache-manifest.1915da5991e6e573efea63a9e8177982.js",
+    "precache-manifest.e0c298abb6b77785577aa311737cf743.js": "/thecreativegoose/precache-manifest.e0c298abb6b77785577aa311737cf743.js",
     "service-worker.js": "/thecreativegoose/service-worker.js",
     "static/css/2.046e01ea.chunk.css.map": "/thecreativegoose/static/css/2.046e01ea.chunk.css.map",
-    "static/css/main.d9a25d19.chunk.css.map": "/thecreativegoose/static/css/main.d9a25d19.chunk.css.map",
-    "static/js/2.115c4a8d.chunk.js.LICENSE.txt": "/thecreativegoose/static/js/2.115c4a8d.chunk.js.LICENSE.txt",
+    "static/css/main.3022d0ad.chunk.css.map": "/thecreativegoose/static/css/main.3022d0ad.chunk.css.map",
+    "static/js/2.7b430a84.chunk.js.LICENSE.txt": "/thecreativegoose/static/js/2.7b430a84.chunk.js.LICENSE.txt",
     "static/media/36.jpg": "/thecreativegoose/static/media/36.2e029093.jpg",
     "static/media/36palette.jpg": "/thecreativegoose/static/media/36palette.88f475b7.jpg",
     "static/media/9.jpg": "/thecreativegoose/static/media/9.7c18a689.jpg",
@@ -37,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.7209e810.js",
     "static/css/2.046e01ea.chunk.css",
-    "static/js/2.115c4a8d.chunk.js",
-    "static/css/main.d9a25d19.chunk.css",
-    "static/js/main.db27e762.chunk.js"
+    "static/js/2.7b430a84.chunk.js",
+    "static/css/main.3022d0ad.chunk.css",
+    "static/js/main.92efe293.chunk.js"
   ]
 }
