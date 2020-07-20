@@ -21,6 +21,9 @@ function Hyperlinks () {
             <a className="text-2" id="2" href={spotify.link} target='_blank' rel="noopener noreferrer"><img src={spotify.src} alt="spotifyLogo"/></a>
             <a className="text-3" id="3" href={instagram.link} target='_blank' rel="noopener noreferrer"><img src={instagram.src} alt="instagramLogo"/></a>
             <a className="text-4" id="4" href={linkedIn.link} target='_blank' rel="noopener noreferrer"><img src={linkedIn.src} alt="linkedInLogo"/></a>
+        <span id="small-device-home">
+            <Link to="/" className="text-5"><p>home</p></Link>
+        </span>
         </span>
         </div>
     )

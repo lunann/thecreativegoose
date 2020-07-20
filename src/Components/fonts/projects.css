@@ -155,25 +155,33 @@
     }
     .project-page-landing div, .project-page-landing span {
         margin: 40px !important;
+        margin-bottom: 0px !important;
     }
     .front-picture img {
-        width: 200px;
+        width: 70vw;
         height: auto;
     }
     .project-info {
-        height: auto;
+        height: 280px;
     }
     .img2 {
-        width: 200px;
+        width: 70vw;
         height: auto;
         padding-bottom: 20px;
         margin-top: 20px !important;
     }
+    .img3 {
+        max-width: 80vw !important;
+        height: auto;
+    }
     .project-info p{
-        width: 215px;
+        width: 80vw;
     }
     .detail-info p {
-        width: 215px;
+        width: 80vw;
+    }
+    #scroll-text {
+        visibility: hidden;
     }
 
 }

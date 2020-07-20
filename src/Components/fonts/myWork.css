@@ -48,9 +48,12 @@ a.project-link:hover {
     .myWorkPage h2 {
         font-size: 40px;
     }
+    .myWorkPage {
+        padding-bottom: 150px;
+    }
     .project-link {
         width: 230px;
-        height: auto;
+        height: auto; 
     }
 
 }
