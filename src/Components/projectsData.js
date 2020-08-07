@@ -12,7 +12,55 @@ import detail02 from '../asset/img/detail02.jpg';
 import detail03 from '../asset/img/detail03.jpg';
 import paletteLiva from '../asset/img/livaPalette.jpg';
 
+import citypop from '../asset/img/citypop.jpg';
+import citypopFront from '../asset/img/citypopFront.jpg';
+import searchByCountry from '../asset/img/searchByCountry.jpg';
+import cityPopPalette from '../asset/img/cityPopPalette.jpg';
+import searchCountry from '../asset/img/searchCountry.jpg';
+import topthree from '../asset/img/topthree.jpg';
+import population from '../asset/img/population.jpg';
+
 const projectsData = [
+    {
+        id: "citypop",
+        title: "CityPop",
+        src: citypop,
+        header: "Website / API ",
+        description: "As a work test I got asked by my company to do a website that displayed the population in different cities. The information had to be showned dynamic when the user search for either a city or a country. I had to implement and control text input and fetch data from an API. The design was made by me from a given wireframe.",
+        detail: "Even though the focus was on how well you managed to write the code I couldn't help myself then to also focus a lot on the design. Because the result was mostly focused on text and no images I wanted to keep the design simple but still with a pop of colour.",
+        images: [
+           {
+               id: "1",
+               src: citypopFront,
+               title: "liva",
+           },
+           {
+               id: "2",
+               src: searchByCountry,
+               title: "livaLogo",
+           },
+           {
+               id: "3",
+               src: searchCountry,
+               title: "dLetter",
+           },
+           {
+               id: "4",
+               src: cityPopPalette,
+               title: "cityPopPalette",
+           },
+           {
+               id: "5",
+               src: topthree,
+               title: "Qletter",
+           },
+           {
+               id: "6",
+               src: population,
+               title: "9letter",
+           }  
+        ]
+    },
     {
         id: "36-days-of-type",
         title: "36 days of type",
@@ -93,6 +141,6 @@ const projectsData = [
                title: "9letter",
            }  
         ]
-    },  
+    },
 ]
 export default projectsData
