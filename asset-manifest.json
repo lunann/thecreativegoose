@@ -38,7 +38,11 @@
     "static/media/searchCountry.jpg": "/static/media/searchCountry.57f48f17.jpg",
     "static/media/spotifyLogo.png": "/static/media/spotifyLogo.b818d523.png",
     "static/media/thisIsMe1.jpg": "/static/media/thisIsMe1.982cf19f.jpg",
+<<<<<<< HEAD
     "static/media/topthree.jpg": "/static/media/topthree.9675ef4d.jpg,
+=======
+    "static/media/topthree.jpg": "/static/media/topthree.9675ef4d.jpg"
+>>>>>>> c68afa79... Updates
   },
   "entrypoints": [
     "static/js/runtime-main.7209e810.js",
