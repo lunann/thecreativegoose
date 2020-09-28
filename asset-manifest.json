@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.3022d0ad.chunk.css",
-    "main.js": "/static/js/main.32914d61.chunk.js",
-    "main.js.map": "/static/js/main.32914d61.chunk.js.map",
+    "main.js": "/static/js/main.228010c0.chunk.js",
+    "main.js.map": "/static/js/main.228010c0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7209e810.js",
     "runtime-main.js.map": "/static/js/runtime-main.7209e810.js.map",
     "static/css/2.046e01ea.chunk.css": "/static/css/2.046e01ea.chunk.css",
     "static/js/2.7c9a03c4.chunk.js": "/static/js/2.7c9a03c4.chunk.js",
     "static/js/2.7c9a03c4.chunk.js.map": "/static/js/2.7c9a03c4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4f3709995831da6c499704f4a3cf52c0.js": "/precache-manifest.4f3709995831da6c499704f4a3cf52c0.js",
+    "precache-manifest.05f0dc8ff7b3978a19a26bbfa7ec4210.js": "/precache-manifest.05f0dc8ff7b3978a19a26bbfa7ec4210.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.046e01ea.chunk.css.map": "/static/css/2.046e01ea.chunk.css.map",
     "static/css/main.3022d0ad.chunk.css.map": "/static/css/main.3022d0ad.chunk.css.map",
@@ -22,7 +22,7 @@
     "static/media/Q.jpg": "/static/media/Q.2dd4b1eb.jpg",
     "static/media/annikalundberg.pdf": "/static/media/annikalundberg.3149e315.pdf",
     "static/media/cityPopPalette.jpg": "/static/media/cityPopPalette.4353b272.jpg",
-    "static/media/citypopFront.jpg": "/static/media/citypopFront.fa9aaac5.jpg",
+    "static/media/citypopFront.jpg": "/static/media/citypopFront.a23064b0.jpg",
     "static/media/detail01.jpg": "/static/media/detail01.9a2a044f.jpg",
     "static/media/detail02.jpg": "/static/media/detail02.81196969.jpg",
     "static/media/detail03.jpg": "/static/media/detail03.6beb40f7.jpg",
@@ -33,18 +33,18 @@
     "static/media/livaLogo.jpg": "/static/media/livaLogo.9b06858e.jpg",
     "static/media/livaPalette.jpg": "/static/media/livaPalette.fa024b16.jpg",
     "static/media/livafront.jpg": "/static/media/livafront.890e58dc.jpg",
-    "static/media/population.jpg": "/static/media/population.9698693e.jpg",
-    "static/media/searchByCountry.jpg": "/static/media/searchByCountry.584dcc06.jpg",
-    "static/media/searchCountry.jpg": "/static/media/searchCountry.57f48f17.jpg",
+    "static/media/population.jpg": "/static/media/population.0df0a367.jpg",
+    "static/media/searchByCountry.jpg": "/static/media/searchByCountry.83802237.jpg",
+    "static/media/searchCountry.jpg": "/static/media/searchCountry.bc6b2d10.jpg",
     "static/media/spotifyLogo.png": "/static/media/spotifyLogo.b818d523.png",
     "static/media/thisIsMe1.jpg": "/static/media/thisIsMe1.982cf19f.jpg",
-    "static/media/topthree.jpg": "/static/media/topthree.9675ef4d.jpg"
+    "static/media/topthree.jpg": "/static/media/topthree.5c19832b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7209e810.js",
     "static/css/2.046e01ea.chunk.css",
     "static/js/2.7c9a03c4.chunk.js",
     "static/css/main.3022d0ad.chunk.css",
-    "static/js/main.32914d61.chunk.js"
+    "static/js/main.228010c0.chunk.js"
   ]
 }
