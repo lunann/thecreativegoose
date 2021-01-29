@@ -2,7 +2,7 @@ import React from 'react'
 import './fonts/about.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import informationData from './informationData'
+import informationData from './informationData.js'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap'
@@ -13,7 +13,6 @@ function About (){
             var maxWidth = 1200;
             return window.innerWidth < maxWidth;
         }
-        
     });
     
     const aboutInformation = informationData.find(({ id }) => id === "Annika")
