@@ -15,7 +15,7 @@
     "react-horizontal-scrolling-menu": "^0.7.7",
     "react-items-carousel": "^2.8.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "^3.4.4",
     "reactstrap": "^8.5.1"
   },
   "scripts": {
