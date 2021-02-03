@@ -20,6 +20,16 @@ import searchCountry from '../asset/img/searchCountry.jpg';
 import topthree from '../asset/img/topthree.jpg';
 import population from '../asset/img/population.jpg';
 
+import plant from '../asset/img/front_plant.jpg';
+import plant_front from '../asset/img/plant_1.jpg';
+import plant_2 from '../asset/img/plant_2.jpg';
+import plant_3 from '../asset/img/plant_palette.jpg';
+import plant_4 from '../asset/img/plant_4.jpg';
+import plant_5 from '../asset/img/plant_5.JPG';
+import plant_6 from '../asset/img/plant_6.jpg';
+
+
+
 const projectsData = [
     {
         id: "citypop",
@@ -97,6 +107,54 @@ const projectsData = [
            {
                id: "6",
                src: letter9,
+               title: "9letter",
+           }
+            
+        ]
+    },
+    {
+        id: "plant-shop",
+        title: "The online plant garden",
+        src: plant,
+        header: "UX-design / JQuery / HTML / CSS",
+        description: "In a web development course I and a antoher student decided to create an " + 
+        "online shop. The requirements where that we needed to have products, a shopping cart " +  
+        "where we could add our products, be able to change the quantity of every product in the " + 
+        "shopping cart, have an item page and a slideshow. The result became an online shop for plants. " + 
+        "We wanted to keep the design simple because we where learing a new langugage (JQuery) " + 
+        "and wanted to focus on the implementation of functionality.",
+        detail: "To make the plant stand out and be in focus we decided to cut out the flowers and add a " + 
+        "colourful background behind them. This created a nice pop of colour while still having the plant in " + 
+        "focus.",
+        images: [
+           {
+               id: "1",
+               src: plant_front,
+               title: "36 days of type",
+           },
+           {
+               id: "2",
+               src: plant_2,
+               title: "hLetter",
+           },
+           {
+               id: "3",
+               src: plant_4,
+               title: "dLetter",
+           },
+           {
+               id: "4",
+               src: plant_3,
+               title: "36palette",
+           },
+           {
+               id: "5",
+               src: plant_5,
+               title: "Qletter",
+           },
+           {
+               id: "6",
+               src: plant_6,
                title: "9letter",
            }
             
