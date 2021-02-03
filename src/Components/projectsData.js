@@ -117,7 +117,7 @@ const projectsData = [
         title: "The online plant garden",
         src: plant,
         header: "UX-design / JQuery / HTML / CSS",
-        description: "In a web development course I and a antoher student decided to create an " + 
+        description: "In a web development course I and an antoher student decided to create an " + 
         "online shop. The requirements where that we needed to have products, a shopping cart " +  
         "where we could add our products, be able to change the quantity of every product in the " + 
         "shopping cart, have an item page and a slideshow. The result became an online shop for plants. " + 
@@ -130,32 +130,32 @@ const projectsData = [
            {
                id: "1",
                src: plant_front,
-               title: "36 days of type",
+               title: "plant-front",
            },
            {
                id: "2",
                src: plant_2,
-               title: "hLetter",
+               title: "plant-2",
            },
            {
                id: "3",
                src: plant_4,
-               title: "dLetter",
+               title: "plant-4",
            },
            {
                id: "4",
                src: plant_3,
-               title: "36palette",
+               title: "plant-3",
            },
            {
                id: "5",
                src: plant_5,
-               title: "Qletter",
+               title: "plant-5",
            },
            {
                id: "6",
                src: plant_6,
-               title: "9letter",
+               title: "plant-6",
            }
             
         ]
