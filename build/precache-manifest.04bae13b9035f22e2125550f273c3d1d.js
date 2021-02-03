@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d58b46c6ec2d1f05b39eb136316e5f9",
+    "revision": "0463fca768672bd0a48664647bb8211f",
     "url": "./index.html"
   },
   {
-    "revision": "6920974c93a39d684402",
+    "revision": "01b628c471e12b4d5a30",
     "url": "./static/css/2.ea4ca4ef.chunk.css"
   },
   {
-    "revision": "eba7bcf8cd93ef8beff5",
+    "revision": "efd42ed23ba0bb1071ee",
     "url": "./static/css/main.12f3c275.chunk.css"
   },
   {
-    "revision": "6920974c93a39d684402",
-    "url": "./static/js/2.70a2b73d.chunk.js"
+    "revision": "01b628c471e12b4d5a30",
+    "url": "./static/js/2.3d1ae921.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "./static/js/2.70a2b73d.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.3d1ae921.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eba7bcf8cd93ef8beff5",
-    "url": "./static/js/main.12992792.chunk.js"
+    "revision": "efd42ed23ba0bb1071ee",
+    "url": "./static/js/main.8229ff39.chunk.js"
   },
   {
     "revision": "be44b3bd2559320e734a",
@@ -76,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/detail03.6beb40f7.jpg"
   },
   {
+    "revision": "2220b5cdb8f011d3ca0ea58c16ce5907",
+    "url": "./static/media/front_plant.2220b5cd.jpg"
+  },
+  {
     "revision": "eea79c8e0e6d1a6abb47c1b44bd1031d",
     "url": "./static/media/graphic.eea79c8e.png"
   },
@@ -102,6 +106,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "890e58dcb180bbbcf3a7902d64759865",
     "url": "./static/media/livafront.890e58dc.jpg"
+  },
+  {
+    "revision": "2a4734495224fdc933fd9f6a2de9ea99",
+    "url": "./static/media/plant_1.2a473449.jpg"
+  },
+  {
+    "revision": "d10ed2125ed604a1d9bbc056375d863f",
+    "url": "./static/media/plant_2.d10ed212.jpg"
+  },
+  {
+    "revision": "ab0ad5ae289218de6e9af56969e8756c",
+    "url": "./static/media/plant_4.ab0ad5ae.jpg"
+  },
+  {
+    "revision": "987b31085eb0dda4d1bfe98a220887a6",
+    "url": "./static/media/plant_5.987b3108.JPG"
+  },
+  {
+    "revision": "8e3dd4ecdbfbe2af76de67514eb4f75d",
+    "url": "./static/media/plant_6.8e3dd4ec.jpg"
+  },
+  {
+    "revision": "87782c2b117a78db93e73f70504f2d49",
+    "url": "./static/media/plant_palette.87782c2b.jpg"
   },
   {
     "revision": "0df0a367ba9e7d5678ba4b0e19c1d675",
