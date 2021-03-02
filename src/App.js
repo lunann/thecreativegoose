@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MainContent from "./Components/MainContent"
 import Hyperlinks from "./Components/Hyperlinks"
 import Project from './Components/Project'
@@ -7,8 +7,15 @@ import About from "./Components/About"
 import MyWork from "./Components/MyWork"
 import Oups from "./Components/Oups"
 import './fonts.css'
+import ReactGa from 'react-ga';
 
 function App () {
+
+    useEffect(() => {
+        ReactGa.initialize('UA-179038987-1');
+        ReactGa.pageview(window.location.pathname + window.location.search);
+    })
+
     return (
         <Router>
             <div>
