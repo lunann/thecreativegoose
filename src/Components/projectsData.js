@@ -36,7 +36,7 @@ const projectsData = [
         title: "CityPop",
         src: citypop,
         header: "Website / API ",
-        website: "",
+        website: "https://city-pop-search.netlify.app",
         description: "As a work test I got asked by my company to do a website that displayed the population in different cities. The information had to be showned dynamic when the user search for either a city or a country. I had to implement and control text input and fetch data from an API. The design was made by me from a given wireframe.",
         detail: "Even though the focus was on how well you managed to write the code I couldn't help myself then to also focus a lot on the design. Because the result was mostly focused on text and no images I wanted to keep the design simple but still with a pop of colour.",
         images: [
@@ -119,7 +119,7 @@ const projectsData = [
         title: "The online plant garden",
         src: plant,
         header: "UX-design / JQuery / HTML / CSS",
-        website: "https://plantgarden.netlify.app",
+        website: "https://the-online-plant-garden.netlify.app",
         description: "In a web development course me and antoher student created an " + 
         "online shop. The requirements where that we needed to have products, a shopping cart " +  
         "where we could add our products, be able to change the quantity of every product in the " + 
