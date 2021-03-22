@@ -24,8 +24,9 @@ function Project({match}){
                 </div>
                 <div className="project-info" data-aos="fade-left" data-aos-duration="1000">
                     <h3>{project.header}</h3>
+                    <a href={project.website}>Visit live website</a>
                     <p>{project.description}</p>
-                    <span id="scroll-text"><p>Scroll to know more &nbsp;&nbsp;&nbsp;></p></span>
+                    <span id="scroll-text"><p>Scroll to know more &nbsp;&nbsp;&nbsp;</p></span>
                 </div>
                 <span>
                     <img src={Image02.src} className="img2" alt="image02"/> 
