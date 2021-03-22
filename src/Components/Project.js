@@ -24,7 +24,7 @@ function Project({match}){
                 </div>
                 <div className="project-info" data-aos="fade-left" data-aos-duration="1000">
                     <h3>{project.header}</h3>
-                    <a href={project.website}>Visit live website</a>
+                    <a href={project.website} target="_blank" rel="noopener noreferrer">Visit live website</a>
                     <p>{project.description}</p>
                     <span id="scroll-text"><p>Scroll to know more &nbsp;&nbsp;&nbsp;</p></span>
                 </div>
