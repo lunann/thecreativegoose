@@ -11,8 +11,7 @@ function Hyperlinks () {
     
     return (
         <div className="hyperlinks">
-            <Link className="hyperlinks-nav" id="up-left" to='/about'>
-                about</Link>
+            <Link className="hyperlinks-nav" id="up-left" to='/about'>about</Link>
             <Link className="hyperlinks-nav" id="up-right" to='/mywork'>my work</Link>
             <a className="hyperlinks-nav" id="down-left" href={pdf} target='_blank' rel="noopener noreferrer">resume</a>
             <a className="hyperlinks-nav" id="down-right" href='mailto:info@thecreativegoose.com'>contact</a>

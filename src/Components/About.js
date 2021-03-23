@@ -41,19 +41,27 @@ function About (){
             <h3 data-aos="fade-up" data-aos-duration="500">{aboutInformation.question}</h3>
             <Row data-aos="fade-up" data-aos-duration="1000">
                 <Col xs="6" sm="4" className="row-3">
-                    <h4>Ideas to reality</h4>
-                    <p>Together with you I’ll turn your ideas in your head into visual designs so you can bring your buisness forward.</p>
+                    <h4>Project strategy</h4>
+                    <p>Together we will create a plan from start to finish for the project with clear deadlines
+                        and how I can help you. I am here to make your life easier and will through out the project
+                        solve your problem and help you in any way I can.</p>
                 </Col>
                 <Col xs="6" sm="4" className="row-3">
-                    <h4>UX / UI</h4>
-                    <p>Good user experience isn’t noticed, only when it’s not working. Let's stick with the working part.</p>
+                    <h4>UX/UI design</h4>
+                    <p>I will turn your ideas in your head into visual designs so you can bring 
+                        your buisness forward. Visualizing and building the architecture of your digital
+                        product to ensure seamless interactions and user enjoyment.</p>
                 </Col>
                 <Col sm="4" className="row-3" id="border-right">
-                    <h4>Healty relation</h4>
-                    <p>I'm here to make your life easier and will through out the project solve your problems and help you in any way I can.</p>
+                    <h4>Web development</h4>
+                    <p>Development based on the design you have agreed on to make your website come to life.
+                        I will develop the artboard into a digital experience for your users. When finised 
+                        I will help you getting it up online so it can be reached by your users. 
+                    </p>
                 </Col>
             </Row>
-            <h5 data-aos="fade-up" data-aos-duration="1000">Like what you read? Hit me up!</h5>
+            <h5 data-aos="fade-up" data-aos-duration="1000">I am avalible for freelance work. Get in touch by
+            dropping an <a href='mailto:info@thecreativegoose.com'>email</a>.</h5>
         </Container>
         </div>
                 

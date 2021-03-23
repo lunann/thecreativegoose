@@ -1,5 +1,5 @@
 .hyperlinks {
-    transition-timing-function: 'ease-out',
+    transition-timing-function: 'ease-out';
 }
 .hyperlinks a{
     color: #3a3a3a;
@@ -9,8 +9,8 @@
     font-family: 'Londrina Outline';
     letter-spacing: 3;
     text-decoration: 'none';
-    margin: 20px;
     transition: '1s';
+    background-color:#eceae9;
 }
 a.hyperlinks-nav:hover {
     font-family: 'Londrina Solid', cursive !important;
@@ -20,21 +20,31 @@ a.hyperlinks-nav:hover {
     left: 0;
     float:left;
     top: 0;
+    padding-right: 100vw;
+    padding-top: 20px;
+    padding-left: 20px;
 }
 .hyperlinks #up-right{
     right: 0;
     float:right;
     top: 0;
+    padding-top: 20px;
+    padding-right: 20px;
 }
 .hyperlinks #down-left{
     left: 0;
     float:left;
     bottom: 0;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 100vw;
 }
 .hyperlinks #down-right{
     right: 0;
     bottom: 0;
     float: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
 }
 .text-2 img, .text-3 img, .text-4 img{
     width: 15px;
@@ -48,6 +58,7 @@ a.hyperlinks-nav:hover {
     top: 30px;
     left: 50%;
     margin-left: -67px !important;
+    padding-top: 20px;
 }
 .text-1 a, .text-5 a {
     text-decoration: none !important;
@@ -56,14 +67,19 @@ a.hyperlinks-nav:hover {
 .text-2{
     left: 0px;
     top:50%;
+    padding-left: 20px;
+    background-color: transparent !important;
 }
 .text-3{
     right: 0px;
     top:50%;
+    padding-right: 20px;
+    background-color: transparent !important;
 }
 .text-4{
     left: 50%;
-    bottom: 0px;    
+    bottom: 0px;
+    padding-bottom: 20px;   
 }
 .text-4 img {
     margin-left: -27.5px;
@@ -77,6 +93,7 @@ a.hyperlinks-nav:hover {
     left: 50%;
     margin-left: -20px !important;
     visibility: hidden;
+    padding-bottom: 15px;
 }
 #small-device-home {
     visibility: none;
