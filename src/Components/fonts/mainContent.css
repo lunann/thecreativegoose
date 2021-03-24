@@ -26,8 +26,20 @@
     font-size: 15px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #3a3a3a;
+}
+.cta-btn {
+    font-size: 17px;
+    letter-spacing: 3px;
+    border: 0.4px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px black;
+    transition: 0.3s;
+}
+.cta-btn:hover {
+    box-shadow: 0px 0px black;
 }
 .Image01 {
     width: 29% !important;
