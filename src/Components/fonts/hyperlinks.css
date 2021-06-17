@@ -1,6 +1,22 @@
 .hyperlinks {
     transition-timing-function: 'ease-out';
 }
+.hyperlinks-top {
+    background-color: #eceae9;
+    height:88.5px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1000;
+}
+.hyperlinks-bottom {
+    background-color: #eceae9;
+    height:87px;
+    bottom:0;
+    position: fixed;
+    width: 100vw;
+    z-index: 1000;
+}
 .hyperlinks a{
     color: #3a3a3a;
     position: fixed;
@@ -20,31 +36,25 @@ a.hyperlinks-nav:hover {
     left: 0;
     float:left;
     top: 0;
-    padding-right: 100vw;
-    padding-top: 20px;
-    padding-left: 20px;
+    margin: 20px;
 }
 .hyperlinks #up-right{
     right: 0;
     float:right;
     top: 0;
-    padding-top: 20px;
-    padding-right: 20px;
+    margin: 20px;
 }
 .hyperlinks #down-left{
     left: 0;
     float:left;
     bottom: 0;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 100vw;
+    margin: 20px;
 }
 .hyperlinks #down-right{
     right: 0;
     bottom: 0;
     float: right;
-    padding-bottom: 20px;
-    padding-right: 20px;
+    margin: 20px;
 }
 .text-2 img, .text-3 img, .text-4 img{
     width: 15px;
@@ -58,7 +68,7 @@ a.hyperlinks-nav:hover {
     top: 30px;
     left: 50%;
     margin-left: -67px !important;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .text-1 a, .text-5 a {
     text-decoration: none !important;
@@ -82,7 +92,7 @@ a.hyperlinks-nav:hover {
     padding-bottom: 20px;   
 }
 .text-4 img {
-    margin-left: -27.5px;
+    margin-left: -7px;
 }
 .text-5 {
     font-family: 'Source Sans Pro', sans-serif !important;
