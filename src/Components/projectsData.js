@@ -168,7 +168,7 @@ const projectsData = [
         title: "Linköping Vegan Association",
         src: imgLivaLogo,
         header: "Website / UX / UI",
-        website: "www.livaliu.se",
+        website: "",
         description: "In the middle of June 2018 I was in charge of a marketing for a vegan association" + 
         " at Linköping University. The association had only been around for a few years and was in the process" + 
         " of a new website to reach out to more people. My goal was to make an easy design with all the basic " + 

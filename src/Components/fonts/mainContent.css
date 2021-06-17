@@ -31,12 +31,14 @@
 }
 .cta-btn {
     font-size: 17px;
-    letter-spacing: 3px;
-    border: 0.4px solid black;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 2px 2px black;
+    letter-spacing: 2px;
+    border: 0.4px solid rgb(68, 64, 64);
+    border-radius: 2px;
+    padding: 6px;
+    box-shadow: 4px 4px black;
     transition: 0.3s;
+    color:  #eceae9;
+    background-color: rgb(68, 64, 64);
 }
 .cta-btn:hover {
     box-shadow: 0px 0px black;

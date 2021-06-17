@@ -15,6 +15,8 @@ function Project({match}){
     const Image05 = project.images.find(({ id }) => id === "5")
     const Image06 = project.images.find(({ id }) => id === "6")
     
+    const website = project.website;
+
     return (
         <div className="project-page">
         <h1 data-aos="fade-right" data-aos-duration="2000">{project.title}</h1>
@@ -24,7 +26,13 @@ function Project({match}){
                 </div>
                 <div className="project-info" data-aos="fade-left" data-aos-duration="1000">
                     <h3>{project.header}</h3>
-                    <a href={project.website} target="_blank" rel="noopener noreferrer">Visit live website</a>
+                    {website ? (
+                        <a href={project.website} target="_blank" rel="noopener noreferrer">Visit live website</a>
+                    ) : (
+                        <a></a>
+                    )
+                    }
+                    
                     <p>{project.description}</p>
                     <span id="scroll-text"><p>Scroll to know more &nbsp;&nbsp;&nbsp;</p></span>
                 </div>
