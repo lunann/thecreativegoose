@@ -6,7 +6,7 @@ const informationData = [
         id: "Annika",
         title: "Simon",
         typewriterText: "Hej, this is me",
-        infoText: "My name is Annika Lundberg. I’m a 23 year old vegan web developer from Sweden" +
+        infoText: "My name is Annika Lundberg. I’m a 24 year old vegan web developer from Sweden" +
         " working with small businesses to create growth-driven products and brands." +
         " With a passion for making the world a better place I work closely with vegan companies and start-ups" +  
         " that share the same goal. You can be calm knowing that from start to finish the work will be powered" +

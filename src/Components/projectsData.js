@@ -28,6 +28,13 @@ import plant_4 from '../asset/img/plant_4.jpg';
 import plant_5 from '../asset/img/plant_5.JPG';
 import plant_6 from '../asset/img/plant_6.jpg';
 
+import balans1 from '../asset/img/balanskarta/1.png';
+import balans2 from '../asset/img/balanskarta/2.png';
+import balans3 from '../asset/img/balanskarta/3.png';
+import balansP from '../asset/img/balanskarta/palette.png';
+import balans4 from '../asset/img/balanskarta/4.png';
+import balans5 from '../asset/img/balanskarta/5.png';
+import balans6 from '../asset/img/balanskarta/6.png';
 
 
 const projectsData = [
@@ -167,7 +174,7 @@ const projectsData = [
         id: "linköping-vegan-association",
         title: "Linköping Vegan Association",
         src: imgLivaLogo,
-        header: "Website / UX / UI",
+        header: "Website / UX / UI / HTML / CSS",
         website: "",
         description: "In the middle of June 2018 I was in charge of a marketing for a vegan association" + 
         " at Linköping University. The association had only been around for a few years and was in the process" + 
@@ -205,6 +212,55 @@ const projectsData = [
            {
                id: "6",
                src: detail03,
+               title: "9letter",
+           }  
+        ]
+    },
+    {
+        id: "balans-karta",
+        title: "Balanskarta",
+        src: balans1,
+        header: "Application / UX / UI",
+        website: "",
+        description: "In an interaction and design course I was assigned to come up with a design concept for" +
+        " a health warning system. I decided to design an application called the 'balanskarta' (balance map)" +
+        " to warn for signs regarding your mental health. The design included 10 different questions about" +
+        " the users life which users are then to answer on a 10 point scale. After the 10 questions a balance" +
+        " map will be displayed showing how balance your current life is and which areas individual should" +
+        "  focus on more. Users can then read more about the different areas and why it is important to be" +  
+        " balanced.",       
+        detail: "Because mental illness is a hard topic I wanted to create a minimalistic but cool impression " +
+        "of the balance map. Mostly young people struggle with mental illness and I wanted an application that" + 
+        "would draw there attention and finish the 10 question.",
+        images: [
+           {
+               id: "1",
+               src: balans2,
+               title: "liva",
+           },
+           {
+               id: "2",
+               src: balans3,
+               title: "livaLogo",
+           },
+           {
+               id: "3",
+               src: balans4,
+               title: "dLetter",
+           },
+           {
+               id: "4",
+               src: balansP,
+               title: "livaPalette",
+           },
+           {
+               id: "5",
+               src: balans5,
+               title: "Qletter",
+           },
+           {
+               id: "6",
+               src: balans6,
                title: "9letter",
            }  
         ]
