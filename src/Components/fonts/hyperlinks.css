@@ -1,27 +1,12 @@
 .hyperlinks {
     transition-timing-function: 'ease-out';
 }
-.hyperlinks-top {
-    background-color: #eceae9;
-    height:88.5px;
-    position: fixed;
-    width: 100vw;
-    top: 0;
-    z-index: 1000;
-}
-.hyperlinks-bottom {
-    background-color: #eceae9;
-    height:87px;
-    bottom:0;
-    position: fixed;
-    width: 100vw;
-    z-index: 1000;
-}
+
 .hyperlinks a{
     color: #3a3a3a;
     position: fixed;
     z-index: 1000;
-    font-size: 45px;
+    font-size: 36px;
     font-family: 'Londrina Outline';
     letter-spacing: 3;
     text-decoration: 'none';
@@ -36,25 +21,33 @@ a.hyperlinks-nav:hover {
     left: 0;
     float:left;
     top: 0;
-    margin: 20px;
+    padding: 20px;
+    padding-right: 30px;
+    border-bottom-right-radius: 100px;
 }
 .hyperlinks #up-right{
     right: 0;
     float:right;
     top: 0;
-    margin: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    border-bottom-left-radius: 100px;
 }
 .hyperlinks #down-left{
     left: 0;
     float:left;
     bottom: 0;
-    margin: 20px;
+    padding: 20px;
+    padding-right: 30px;
+    border-top-right-radius: 100px;
 }
 .hyperlinks #down-right{
     right: 0;
     bottom: 0;
     float: right;
-    margin: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    border-top-left-radius: 100px;
 }
 .text-2 img, .text-3 img, .text-4 img{
     width: 15px;
@@ -109,13 +102,23 @@ a.hyperlinks-nav:hover {
     visibility: none;
 }
 @media screen and (max-width: 700px) { 
-    .hyperlinks a{
-        font-size: 35px;
+    /*.hyperlinks-top {
+        background-color: #eceae9;
+        height:87px;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        z-index: 1000;
     }
+    .hyperlinks-bottom {
+        background-color: #eceae9;
+        height:87px;
+        bottom:0;
+        position: fixed;
+        width: 100vw;
+        z-index: 1000;
+    }*/
     #external-links {
         visibility: hidden;
-    }
-    .text-5 {
-        visibility: visible !important;
-    }
+    }    
 }

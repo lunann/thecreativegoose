@@ -9,12 +9,15 @@ import Oups from "./Components/Oups"
 import './fonts.css'
 import ReactGa from 'react-ga';
 
+//ReactGa.initialize('UA-179038987-1');
+//ReactGa.pageview(window.location.pathname + window.location.search);
+
 function App () {
 
     useEffect(() => {
-        ReactGa.initialize('UA-179038987-1');
-        ReactGa.pageview(window.location.pathname + window.location.search);
-    })
+        window.scrollTo(0, 0)
+    }, [])
+   
 
     return (
         <Router>

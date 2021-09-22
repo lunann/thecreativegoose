@@ -1,269 +1,160 @@
-import img36 from '../asset/img/36.jpg';
-import imgLivaLogo from '../asset/img/livaLogo.jpg';
-import letterH from '../asset/img/H.jpg';
-import letterD from '../asset/img/D.jpg';
-import letterQ from '../asset/img/Q.jpg';
-import letter9 from '../asset/img/9.jpg';
-import palette36 from '../asset/img/36palette.jpg';
+import liva1 from '../asset/img/liva/livaLogo.jpg';
+import liva2 from '../asset/img/liva/21.png';
+import liva3 from '../asset/img/liva/3.png';
+import liva4 from '../asset/img/liva/4.png';
 
-import imgLiva from '../asset/img/livafront.jpg';
-import detail01 from '../asset/img/detail01.jpg';
-import detail02 from '../asset/img/detail02.jpg';
-import detail03 from '../asset/img/detail03.jpg';
-import paletteLiva from '../asset/img/livaPalette.jpg';
+import sanctuary1 from '../asset/img/dream-sanctuary/1.png';
+import sanctuary2 from '../asset/img/dream-sanctuary/2.png';
+import sanctuary3 from '../asset/img/dream-sanctuary/3.png';
+import sanctuary4 from '../asset/img/dream-sanctuary/4.png';
+import sanctuary5 from '../asset/img/dream-sanctuary/5.png';
+import sanctuary6 from '../asset/img/dream-sanctuary/6.png';
 
-import citypop from '../asset/img/citypop.jpg';
-import citypopFront from '../asset/img/citypopFront.jpg';
-import searchByCountry from '../asset/img/searchByCountry.jpg';
-import cityPopPalette from '../asset/img/cityPopPalette.jpg';
-import searchCountry from '../asset/img/searchCountry.jpg';
-import topthree from '../asset/img/topthree.jpg';
-import population from '../asset/img/population.jpg';
-
-import plant from '../asset/img/front_plant.jpg';
-import plant_front from '../asset/img/plant_1.jpg';
-import plant_2 from '../asset/img/plant_2.jpg';
-import plant_3 from '../asset/img/plant_palette.jpg';
-import plant_4 from '../asset/img/plant_4.jpg';
-import plant_5 from '../asset/img/plant_5.JPG';
-import plant_6 from '../asset/img/plant_6.jpg';
-
-import balans1 from '../asset/img/balanskarta/1.png';
-import balans2 from '../asset/img/balanskarta/2.png';
-import balans3 from '../asset/img/balanskarta/3.png';
-import balansP from '../asset/img/balanskarta/palette.png';
-import balans4 from '../asset/img/balanskarta/4.png';
-import balans5 from '../asset/img/balanskarta/5.png';
-import balans6 from '../asset/img/balanskarta/6.png';
+import magic1 from '../asset/img/magic-heaven/1.png';
+import magic2 from '../asset/img/magic-heaven/2.png';
+import magic3 from '../asset/img/magic-heaven/3.png';
+import magic4 from '../asset/img/magic-heaven/4.png';
+import magic5 from '../asset/img/magic-heaven/5.png';
+import magic6 from '../asset/img/magic-heaven/6.png';
 
 
 const projectsData = [
     {
-        id: "citypop",
-        title: "CityPop",
-        src: citypop,
-        header: "Website / API ",
-        website: "https://city-pop-search.netlify.app",
-        description: "As a work test I got asked by my company to do a website that displayed the population in different cities. The information had to be showned dynamic when the user search for either a city or a country. I had to implement and control text input and fetch data from an API. The design was made by me from a given wireframe.",
-        detail: "Even though the focus was on how well you managed to write the code I couldn't help myself then to also focus a lot on the design. Because the result was mostly focused on text and no images I wanted to keep the design simple but still with a pop of colour.",
+        id: "dream-sanctuary",
+        title: "Dream Sanctuary",
+        src: sanctuary1,
+        header: "UX & UI Design  •  2021",
+        website: "",
+        description1: "While searching the internet for animal sanctuaries to help and volunteer at I found myself" +
+        " distracted by the outdated designs and confusing navigation." + 
+        " As a side project I therefore decided to create my own design with a more modern look of a sanctuary.",
+        description2:" I love creating websites that are close to my heart and while designing this design it was" +
+        " really hard to stop, which I loved.",
+        quote: "Images can have an impact while keeping the design simple",
+        detailHeader: "Animals in focus",
+        detail1: "While many sanctuaries have a lot of text and information I wanted to focus what I believe is"+
+        " one of the main focus points at a sanctuary, the animals. I therefore decided to use big images" +
+        " on animlas living on the farm in the design.",
+        detail2: "This creates a very simple design which does not have a lot of distraction, while still "+
+        "showing in a clear way what the website is all about.", 
         images: [
            {
-               id: "1",
-               src: citypopFront,
+               id: "2",
+               src: sanctuary2,
                title: "liva",
            },
            {
-               id: "2",
-               src: searchByCountry,
+               id: "3",
+               src: sanctuary3,
                title: "livaLogo",
            },
            {
-               id: "3",
-               src: searchCountry,
+               id: "4",
+               src: sanctuary4,
                title: "dLetter",
            },
            {
-               id: "4",
-               src: cityPopPalette,
-               title: "cityPopPalette",
+               id: "5",
+               src: sanctuary5,
+               title: "livaPalette",
            },
            {
-               id: "5",
-               src: topthree,
+               id: "6",
+               src: sanctuary6,
                title: "Qletter",
-           },
-           {
-               id: "6",
-               src: population,
-               title: "9letter",
-           }  
-        ]
-    },
-    {
-        id: "36-days-of-type",
-        title: "36 days of type",
-        src: img36,
-        header: "Graphic design",
-        website: "",
-        description: "36 days of type is a project to encourage designers to design letters and numbers from the latin alphabet. For 36 days you come up with a innovate design for a letter or number for that specific day and then showcase it on Instagram. I decided to participate as I wanted to develop as a designer and thought this was a fun way to do it. While doing the project I got a routine which helped me think more creative and innovative and I ended up doing all the 26 letters and 10 numbers.",
-        detail: "I wanted to have a cohesive collection and therefore decided to use the same colours and style for each design. The design works a lot with overlayering and different forms. This resulted in these designs that are some of my favourites.",
-        images: [
-           {
-               id: "1",
-               src: img36,
-               title: "36 days of type",
-           },
-           {
-               id: "2",
-               src: letterH,
-               title: "hLetter",
-           },
-           {
-               id: "3",
-               src: letterD,
-               title: "dLetter",
-           },
-           {
-               id: "4",
-               src: palette36,
-               title: "36palette",
-           },
-           {
-               id: "5",
-               src: letterQ,
-               title: "Qletter",
-           },
-           {
-               id: "6",
-               src: letter9,
-               title: "9letter",
-           }
-            
-        ]
-    },
-    {
-        id: "plant-shop",
-        title: "The online plant garden",
-        src: plant,
-        header: "UX-design / JQuery / HTML / CSS",
-        website: "https://the-online-plant-garden.netlify.app",
-        description: "In a web development course me and antoher student created an " + 
-        "online shop. The requirements where that we needed to have products, a shopping cart " +  
-        "where we could add our products, be able to change the quantity of every product in the " + 
-        "shopping cart, have an item page and a slideshow. The result became an online shop for plants. " + 
-        "We wanted to keep the design simple because we where learing a new langugage (JQuery) " + 
-        "and wanted to focus on the implementation of functionality.",
-        detail: "To make the plant stand out and be in focus we decided to cut out the flowers and add a " + 
-        "colourful background behind them. This created a nice pop of colour while still having the plant in " + 
-        "focus.",
-        images: [
-           {
-               id: "1",
-               src: plant_front,
-               title: "plant-front",
-           },
-           {
-               id: "2",
-               src: plant_2,
-               title: "plant-2",
-           },
-           {
-               id: "3",
-               src: plant_4,
-               title: "plant-4",
-           },
-           {
-               id: "4",
-               src: plant_3,
-               title: "plant-3",
-           },
-           {
-               id: "5",
-               src: plant_5,
-               title: "plant-5",
-           },
-           {
-               id: "6",
-               src: plant_6,
-               title: "plant-6",
-           }
-            
+           }, 
         ]
     },
     {
         id: "linköping-vegan-association",
         title: "Linköping Vegan Association",
-        src: imgLivaLogo,
-        header: "Website / UX / UI / HTML / CSS",
+        src: liva1,
+        header: "UX & UI Design / HTML / CSS •  2018",
         website: "",
-        description: "In the middle of June 2018 I was in charge of a marketing for a vegan association" + 
-        " at Linköping University. The association had only been around for a few years and was in the process" + 
-        " of a new website to reach out to more people. My goal was to make an easy design with all the basic " + 
+        description1: "While studying at Linköping University I got elected as the head of marketing for"+ 
+        " the only vegan assocations. The association had only been around for a few years and was in the process" + 
+        " of a new website to reach out to more people.",
+        description2:" My goal was to make an easy design with all the basic " + 
         " functionality. This resulted in a five page website with the information needed to read more about the" + 
         " association and how to get involved.",
-        detail: "I started with doing a skiss with the most necessary information. From that I then" + 
-        " created a mock-up for what pages I needed and how the navigation should work.",
+        quote: "A functional website does not have to be boring",
+        detailHeader: "Use colours",
+        detail1: "As this was one of my first design projects for a real client, were I also was the creative"+
+        " head, I could play around with the design a lot.",
+        detail2: "This created in a bold website with strong colours to match the logo and to make a statement of"+
+        " who we were as an association.", 
         images: [
            {
-               id: "1",
-               src: imgLiva,
+               id: "2",
+               src: liva2,
                title: "liva",
            },
            {
-               id: "2",
-               src: imgLivaLogo,
+               id: "3",
+               src: liva3,
                title: "livaLogo",
            },
            {
-               id: "3",
-               src: detail01,
+               id: "4",
+               src: liva4,
                title: "dLetter",
            },
            {
-               id: "4",
-               src: paletteLiva,
+               id: "5",
+               src: "",
                title: "livaPalette",
            },
            {
-               id: "5",
-               src: detail02,
+               id: "6",
+               src: "",
                title: "Qletter",
            },
-           {
-               id: "6",
-               src: detail03,
-               title: "9letter",
-           }  
         ]
     },
     {
-        id: "balans-karta",
-        title: "Balanskarta",
-        src: balans1,
-        header: "Application / UX / UI",
+        id: "magic-heaven",
+        title: "Magic Heaven",
+        src: magic1,
+        header: "UX & UI Design  •  2021",
         website: "",
-        description: "In an interaction and design course I was assigned to come up with a design concept for" +
-        " a health warning system. I decided to design an application called the 'balanskarta' (balance map)" +
-        " to warn for signs regarding your mental health. The design included 10 different questions about" +
-        " the users life which users are then to answer on a 10 point scale. After the 10 questions a balance" +
-        " map will be displayed showing how balance your current life is and which areas individual should" +
-        "  focus on more. Users can then read more about the different areas and why it is important to be" +  
-        " balanced.",       
-        detail: "Because mental illness is a hard topic I wanted to create a minimalistic but cool impression " +
-        "of the balance map. Mostly young people struggle with mental illness and I wanted an application that" + 
-        "would draw there attention and finish the 10 question.",
+        description1: "As a Swede I love having a 'FIKA'. Fika is a something you do (normally in the afternoon)"+ 
+        " where you have a hot drink and something sweet with it. As a side project I therefore decided to create" + 
+        " a design for a vegan café, where you will find most Swedes having a FIKA at least once a week.",
+        description2:"",
+        quote: "Having a pop of colour makes the design more interesting",
+        detailHeader: "Alignment and Structure",
+        detail1: "I decided to follow a strict alignment to make the website more easy to follow. The same margin" +
+        " on each side and having the same length on each row in the text makes it easy to read.",
+        detail2: "While the design keeps a structure it does not give the impression of a boring website. While" + 
+        " having different sizes of images and making them follow through to the next section the user gets" +
+        " curious to want to see and read more.", 
         images: [
            {
-               id: "1",
-               src: balans2,
+               id: "2",
+               src: magic2,
                title: "liva",
            },
            {
-               id: "2",
-               src: balans3,
+               id: "3",
+               src: magic3,
                title: "livaLogo",
            },
            {
-               id: "3",
-               src: balans4,
+               id: "4",
+               src: magic4,
                title: "dLetter",
            },
            {
-               id: "4",
-               src: balansP,
+               id: "5",
+               src: magic5,
                title: "livaPalette",
            },
            {
-               id: "5",
-               src: balans5,
+               id: "6",
+               src: magic6,
                title: "Qletter",
            },
-           {
-               id: "6",
-               src: balans6,
-               title: "9letter",
-           }  
         ]
-    },
+    }, 
 ]
 export default projectsData

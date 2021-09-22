@@ -1,5 +1,5 @@
 .myWorkPage {
-    margin-top: 100px;
+    margin-top: 100px !important;
     text-align: center;
     color:black;
     padding-bottom: 150px;
@@ -44,6 +44,12 @@ a.project-link:hover {
 }
 .projectImg:hover {
     filter: grayscale(0%);
+}
+@media screen and (max-width: 1300px) { 
+    .myWorkPage {
+        width: 70vw;
+        margin: 0 auto;
+    }
 }
 @media screen and (max-width: 800px) { 
     .myWorkPage h2 {

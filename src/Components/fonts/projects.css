@@ -1,54 +1,72 @@
 .project-page {
-    text-align: center;
+    width: 60vw;
+    margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .project-page h1{
-    position: fixed;
-    margin-left: 10vw !important;
+    position: ;
+    margin-left: ;
     font-family: 'Forum';
     font-size: 70px;
     color: #906fa8;
+    text-align: left;
+    width: 600px;
+    margin: 0 auto;
 }
 .project-page-landing {
     width: 100%;
-    display:flex;
+    display:;
     transition: ease-in;
 }
 .project-page-landing div, .project-page-landing span  {
-    margin-top: 100px;
-    margin-right: 100px;
+    margin-top: 40px;
+    margin-right: ;
 }
 .front-picture {
-    min-width: 50%;
-    text-align: right;
-    margin-right: 20px !important;
+    max-width: ;
+    text-align: ;
+    margin-right:  ;
 }
 .front-picture img{
-    height: 50vh;
-    width: auto;
-    margin-right: 2vw !important;
+    height: ;
+    width: 100%;
+    margin-top: 40px;
 }
-.project-info {
-    height: 330px;
+.project-info, .info-detail {
+    width: 600px;
+    margin: 0 auto;
     text-align: left;
     position: relative;
-    min-width: 50%;
     font-size: 17px;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200;
-    margin-right: -20px !important;
 }
-.project-info h3 {
+.project-info h3, .info-quote h3, .info-detail h3{
     font-family: 'Forum';
-    font-size: 17px;
+    font-size: 20px;
+    margin-bottom: 20px;
 }
-.project-info p  {
-    width: 37vw;
+.info-quote, .info-detail {
+    margin-top: 120px !important;
+    text-align: center;
+}
+.info-quote h2 {
+    font-style: italic;
+    font-family: "source sans pro";
+    font-weight: 1000;
+    width: 400px;
+    line-height: 70px;
+    margin: 0 auto;
+    font-size: 40px;
+}
+.project-info p, .info-detail p{
     text-align: justify;
+    line-height: 30px;
 }
 .img2 {
-    height: 50vh;
-    display: inline-block;
+    width: 100%;
+    margin-top: 120px;
 }
 .detail-info {
     font-size: 17px;
@@ -80,10 +98,27 @@
     max-width: 35vw;
     height: auto;
 }
-#last-picture {
-    padding-right: 100px;
+.row {
+    margin-top: 120px;
 }
-
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 1300px) { 
+    .project-page {
+        width: 70vw;
+        margin: 0 auto;
+    }
+}
 @media screen and (min-height: 630px) and (max-width: 1590px) {
     .project-page h1{
         position: relative;
