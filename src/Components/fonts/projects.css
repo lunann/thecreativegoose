@@ -113,13 +113,12 @@
     display: table;
     clear: both;
 }
-@media screen and (max-width: 1300px) { 
-    .project-page {
-        width: 70vw;
-        margin: 0 auto;
+@media screen and (max-width: 920px) { 
+    .project-page h1, .project-info, .info-detail, .info-quote h2{
+        width: auto;
     }
 }
-@media screen and (min-height: 630px) and (max-width: 1590px) {
+/*@media screen and (min-height: 630px) and (max-width: 1590px) {
     .project-page h1{
         position: relative;
         text-align: center;
@@ -231,4 +230,4 @@
         display: None;
     }
 
-}
+}*/
