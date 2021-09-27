@@ -23,7 +23,9 @@ function About (){
             <h2>{aboutInformation.typewriterText}</h2>
             <Row>
                 <Col xs="6" className="row-1"> 
-                    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="3000">{aboutInformation.infoText}</p> 
+                    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="3000">{aboutInformation.infoText1}
+                        <br /><br />{aboutInformation.infoText2}
+                    </p>
                 </Col>
                 <Col xs="6" className="row-1" id="image01" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="3000">
                     <img src={aboutInformation.src} alt="annikaImg"/>

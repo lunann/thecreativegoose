@@ -1,5 +1,8 @@
 .aboutPage {
-    margin-top: 10%;
+    margin-top: 100px !important;
+    padding-bottom: 150px;
+    width: 70vw;
+    margin: 0 auto;
 }
 .container {
     overflow-x: hidden !important;
@@ -15,16 +18,18 @@
     border-right: 2px solid #4b7a90;
     z-index: 4;
     font-family: 'Forum';
-    font-size: 6.3vw;
+    font-size: 70px;
     
-    animation: typewriter 2s steps(44) 1s 1 normal both,
-        blinkTextCursor 400ms steps(44) infinite;
+    animation: typewriter 2s steps(30) 1s 1 normal both,
+        blinkTextCursor 400ms steps(30) infinite;
+}
+.aboutPage .row  {
+    margin-top: 40px;
 }
 .aboutPage p {
     font-size: 17px;
     font-family: 'Source Sans Pro';
     font-weight: 200;
-    margin-left: 20%;
     text-align: justify;
 }
 #image01 img{
@@ -47,16 +52,14 @@
 #image02 img{
     width: 75%;
     height: auto;
-    margin-left: 100px !important;
     margin-top: -80px !important;
 }
-.row-2 h3{
+.row-2 h3 {
     font-family: "Forum";
     margin-left: -90px !important;
 }
 .row-2 p {
-    margin-left: 30px !important;
-    width: 480px;
+    margin-left: -90px !important;
 }
 .row-3 {
     border-left: 1px solid black; 
@@ -104,7 +107,7 @@
         width: 0;
     }
     to {
-        width: 36vw;
+        width: 30vw;
     }
 }
 @keyframes blinkTextCursor {
