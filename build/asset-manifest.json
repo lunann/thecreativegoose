@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.8f8cf26a.chunk.css",
-    "main.js": "/static/js/main.fc547fcd.chunk.js",
-    "main.js.map": "/static/js/main.fc547fcd.chunk.js.map",
+    "main.js": "/static/js/main.94f88ddc.chunk.js",
+    "main.js.map": "/static/js/main.94f88ddc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.57545fcd.js",
     "runtime-main.js.map": "/static/js/runtime-main.57545fcd.js.map",
     "static/css/2.ea4ca4ef.chunk.css": "/static/css/2.ea4ca4ef.chunk.css",
-    "static/js/2.90883bbc.chunk.js": "/static/js/2.90883bbc.chunk.js",
-    "static/js/2.90883bbc.chunk.js.map": "/static/js/2.90883bbc.chunk.js.map",
+    "static/js/2.393d8f52.chunk.js": "/static/js/2.393d8f52.chunk.js",
+    "static/js/2.393d8f52.chunk.js.map": "/static/js/2.393d8f52.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.40b2e4035a7cf56bef7a4c6a33071f92.js": "/precache-manifest.40b2e4035a7cf56bef7a4c6a33071f92.js",
+    "precache-manifest.388f81d089ed9a0077d2e45ed0cb84e5.js": "/precache-manifest.388f81d089ed9a0077d2e45ed0cb84e5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.ea4ca4ef.chunk.css.map": "/static/css/2.ea4ca4ef.chunk.css.map",
     "static/css/main.8f8cf26a.chunk.css.map": "/static/css/main.8f8cf26a.chunk.css.map",
-    "static/js/2.90883bbc.chunk.js.LICENSE.txt": "/static/js/2.90883bbc.chunk.js.LICENSE.txt",
-    "static/media/1.png": "/static/media/1.873f3cea.png",
+    "static/js/2.393d8f52.chunk.js.LICENSE.txt": "/static/js/2.393d8f52.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/static/media/1.b1f4a917.png",
     "static/media/2.png": "/static/media/2.5a47a808.png",
     "static/media/21.png": "/static/media/21.ca43d8bf.png",
-    "static/media/3.png": "/static/media/3.da96770d.png",
+    "static/media/3.png": "/static/media/3.eac1ad2b.png",
     "static/media/4.png": "/static/media/4.813a0d3f.png",
     "static/media/5.png": "/static/media/5.a785b91a.png",
-    "static/media/6.png": "/static/media/6.49149739.png",
+    "static/media/6.png": "/static/media/6.9628b112.png",
     "static/media/annikalundberg.pdf": "/static/media/annikalundberg.ba637ef2.pdf",
     "static/media/graphic.png": "/static/media/graphic.eea79c8e.png",
     "static/media/instagramLogo.png": "/static/media/instagramLogo.d883c388.png",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.57545fcd.js",
     "static/css/2.ea4ca4ef.chunk.css",
-    "static/js/2.90883bbc.chunk.js",
+    "static/js/2.393d8f52.chunk.js",
     "static/css/main.8f8cf26a.chunk.css",
-    "static/js/main.fc547fcd.chunk.js"
+    "static/js/main.94f88ddc.chunk.js"
   ]
 }

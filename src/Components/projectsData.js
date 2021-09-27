@@ -79,11 +79,11 @@ const projectsData = [
         header: "UX & UI Design  /  Wordpress  •  2021",
         website: "",
         description1: "When I was assigned to redesign Royas dentist clinic website she had been using here"+
-        "previous for over 10 years. She was in big need for an uplift to attract more customer while still"+
-        "having a website that would work for her older patients.",
+        " previous for over 10 years. She was in big need for an uplift to attract more customer while still"+
+        " having a website that would work for her older patients.",
         description2:"I decided to have a bold background color with a white text with good contrast to" + 
         " make the website readable for every age. As Roya have a lot of older patient I decided to have"+ 
-        "navigation button at the top to read more and to use the same page design on each sub page.",
+        " navigation button at the top to read more and to use the same page design on each sub page.",
         quote: "Great contrast is a must on a websites when having patients in different ages",
         detailHeader: "Not using standard boxing",
         detail1: "Instead of making an impression of a boxed website I wanted the images and text to give" +
