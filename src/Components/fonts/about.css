@@ -97,6 +97,7 @@
     margin-left: 0px;
     padding-left: 30px;
     padding-right: 30px;
+    text-align: left;
 }
 #border-right {
     border-right: 1px solid black;
