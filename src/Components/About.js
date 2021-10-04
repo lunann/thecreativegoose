@@ -63,9 +63,7 @@ function About (){
             <h5 data-aos="fade-up" data-aos-duration="1000">I am avalible for freelance work. Get in touch by
             dropping an <a href='mailto:info@thecreativegoose.com'>email</a>.</h5>
         </Container>
-        </div>
-                
-              
+        </div>       
     )    
 }
 

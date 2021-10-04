@@ -24,6 +24,13 @@ import roya4 from '../asset/img/dentist-farzini/4.png';
 import roya5 from '../asset/img/dentist-farzini/5.png';
 import roya6 from '../asset/img/dentist-farzini/6.png';
 
+import ola1 from '../asset/img/ola-ahlner/1.jpg';
+import ola2 from '../asset/img/ola-ahlner/2.png';
+import ola3 from '../asset/img/ola-ahlner/3.png';
+import ola4 from '../asset/img/ola-ahlner/4.png';
+import ola5 from '../asset/img/ola-ahlner/5.png';
+
+
 
 const projectsData = [
     {
@@ -155,6 +162,51 @@ const projectsData = [
            {
                id: "5",
                src: "",
+               title: "livaPalette",
+           },
+           {
+               id: "6",
+               src: "",
+               title: "Qletter",
+           },
+        ]
+    },
+    {
+        id: "ola-ahlner",
+        title: "Psychologist Ola Ahlner",
+        src: ola1,
+        header: "UX & UI Design / Wordpress  •  2021",
+        website: "https://olaahlner.se",
+        description1: "Ola is a long time psychologist working with young adults, adults and couples." +
+        " Together we created a minimalistic website with calm colours and a light font.",
+        description2:"Wanting the website to reflect Ola's profession we used earthy colours such as" + 
+        " light brown and light blue. We used few images which help the viewers to focus on the" + 
+        " information on the website.",
+        quote: "The importance to have a website that reflect your proffession",
+        detailHeader: "Simple design",
+        detail1: "With a minimalistic feel and light colours you feel calm scrolling through Ola's"+
+        " website, exactly what he wanted as a psychologit.",
+        detail2: "The importance to keep the design simple was therefore a must with few pages with just the"+
+        " neccessary information, nothing more and nothing less.", 
+        images: [
+           {
+               id: "2",
+               src: ola2,
+               title: "liva",
+           },
+           {
+               id: "3",
+               src: ola3,
+               title: "livaLogo",
+           },
+           {
+               id: "4",
+               src: ola4,
+               title: "dLetter",
+           },
+           {
+               id: "5",
+               src: ola5,
                title: "livaPalette",
            },
            {
