@@ -15,7 +15,7 @@ function MainContent () {
                 <h1 data-aos="fade-left" data-aos-duration="1000">I'm Annika.</h1>
                 <h2 data-aos="fade-left" data-aos-duration="1000">A vegan web developer helping 
                     startups and small businesses</h2>
-                <h3>I'm available for freelance work: info@thecreativegoose.com</h3>
+                <h3 data-aos="fade-left" data-aos-duration="1000">I'm available for freelance work: info@thecreativegoose.com</h3>
             </div>
             <img className="Image01" data-aos="fade-right" data-aos-duration="2500" src={image01.src} alt="annikaCake"/>
             

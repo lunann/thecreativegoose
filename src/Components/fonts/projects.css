@@ -118,6 +118,24 @@
         width: auto;
     }
 }
+@media screen and (max-width: 400px) { 
+    .myWorkPage {
+        width: 100% !important;
+        height: auto !important;
+       
+    }
+    .myWorkPage a {
+        margin: 0px !important;
+        display: inline !important;
+    }
+    .projectImg {
+        width: 80vw !important;
+        height: auto !important;
+        margin: 0 auto !important;
+    }
+    
+}
+
 /*@media screen and (min-height: 630px) and (max-width: 1590px) {
     .project-page h1{
         position: relative;

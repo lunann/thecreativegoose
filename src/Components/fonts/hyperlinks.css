@@ -122,3 +122,31 @@ a.hyperlinks-nav:hover {
         visibility: hidden;
     }    
 }
+@media screen and (max-width: 400px) { 
+    .hyperlinks #down-left, .hyperlinks #down-right, .hyperlinks #up-left, .hyperlinks #up-right{
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+        padding: 10px;
+    }
+    .hyperlinks a {
+        font-size: 26px;
+    }
+    .hyperlinks-top {
+        background-color: #eceae9;
+        height:60px;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        z-index: 1000;
+    }
+    .hyperlinks-bottom {
+        background-color: #eceae9;
+        height:65px;
+        bottom:0;
+        position: fixed;
+        width: 100vw;
+        z-index: 1000;
+    }   
+}

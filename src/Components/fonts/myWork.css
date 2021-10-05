@@ -58,3 +58,21 @@ a.project-link:hover {
     }
 
 }
+@media screen and (max-width: 400px) { 
+    .project-page {
+        width: 80vw;
+    }
+    .project-page h1 {
+        font-size: 45px;
+    }
+    .info-quote, .img2, .info-detail {
+        margin-top: 60px !important;
+    }
+    .info-quote h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .front-picture img {
+        margin-top: 0px;
+    }
+}
