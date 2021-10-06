@@ -424,7 +424,7 @@
         padding: 0px !important;
         margin-top: 100px !important;
     }
-    .container, #table-info p {
+    .container, #table-info p, .col-sm-4 {
         padding: 0px !important;
     }
     .row-1 {
