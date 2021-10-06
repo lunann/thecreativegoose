@@ -231,7 +231,7 @@
         flex: none !important;
         max-width: none !important;
         border-right: none;
-    }*/
+    }
     .aboutPage {
         margin-top: 100px;
     }
@@ -377,6 +377,9 @@
     }
     .row-2 h3 {
         margin-top: 30px !important;
+    }
+    *, ::after, .row-1::before {
+        box-sizing: content-box !important;
     }
     #image01 img {
         width: 100% !important;
