@@ -1,3 +1,6 @@
+*, ::after, .row-1::before {
+    box-sizing: content-box !important;
+}
 .aboutPage {
     margin-top: 100px !important;
     padding-bottom: 150px;
@@ -5,7 +8,8 @@
     margin: 0 auto;
 }
 .container {
-    overflow-x: hidden !important;
+    max-width: auto !important;
+    padding: 0px !important;
 }
 .container h3 {
     text-align: center;
@@ -181,7 +185,7 @@
     .row-1 {
         min-height: 0;
     }
-    .row-1 p {
+    /*.row-1 p {
         margin: 0 auto;
         width: 80vw !important;
         padding-bottom: 30px;
@@ -230,7 +234,7 @@
         flex: none !important;
         max-width: none !important;
         border-right: none;
-    }
+    }*/
 }
 @media screen and (max-width: 1000px) { 
     .aboutPage {
@@ -252,9 +256,9 @@
        margin-left: 0px !important;
        width: auto;
     }
-    .col-6 {
+    /*.col-6 {
         width: 80vw !important;
-    }
+    }*/
     #table-info.container {
         padding: 0px;
         overflow: hidden;
