@@ -141,7 +141,7 @@
     #image01 {
         text-align: center;
     }
-    .col-6, .col-sm-4 {
+    .col-6 {
         min-width: 100%;
     }
     #image02 img{
@@ -149,7 +149,7 @@
     }
     .row-2 h3, .row-2 p {
         margin-left: 0px !important;
-        width: auto;
+        width: 100% !important;
      }
     /**GAMMAL**//*
     
