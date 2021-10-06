@@ -131,7 +131,7 @@
     .row-1 {
         min-height: 0;
     }
-    /**GAMMAL**/
+    /**GAMMAL**//*
     .row-1 p {
         margin-left: 0px;
     }
@@ -177,7 +177,7 @@
     }
     #table-info h5 {
         margin-bottom: 200px !important;
-    }
+    }*/
 }
 @media screen and (max-width: 1200px) and (max-height: 630px){
     /*GAMMAL*//*
