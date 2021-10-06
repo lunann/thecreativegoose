@@ -234,8 +234,9 @@
         margin-bottom: 200px !important;
     }*/
 }
+/*GAMMAL*//*
 @media screen and (max-width: 1200px) and (max-height: 630px){
-    /*GAMMAL*//*
+    
     .row-1 p {
         margin: 0 auto;
         width: 80vw !important;
@@ -285,7 +286,7 @@
         flex: none !important;
         max-width: none !important;
         border-right: none;
-    }*/
+    }
     .aboutPage {
         margin-top: 100px;
     }
@@ -325,7 +326,7 @@
     .row-3 {
         width: 33.33% !important;
     }
-}
+}*/
 @media screen and (max-width: 1000px) { 
     .aboutPage {
         margin-top: 100px;
