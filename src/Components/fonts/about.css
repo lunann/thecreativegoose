@@ -124,9 +124,10 @@
     }
 }
 
-@media screen and (min-height: 630px) and (max-width: 1200px) {
+@media screen (max-width: 1200px) {
     .aboutPage {
         margin-top: 100px;
+        width: 80vw !important;
     }
     .row-1 {
         min-height: 0;
