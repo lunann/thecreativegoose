@@ -146,13 +146,23 @@
     }
     #image02 img{
         width: 0px;
+    }     
+    .row-2 h3, .row-2 p {
+        margin: 0px !important;
+        padding: 0px !important;
+        margin-bottom: 20px !important;
     }
+    #table-info {
+        margin-top: 70px;
+    }
+    .row-3 {
+        width: 33.33% !important;
+    }
+    /**GAMMAL**//*
     .row-2 h3, .row-2 p {
         margin-left: 0px !important;
         width: 100% !important;
      }
-    /**GAMMAL**//*
-    
     .row-2 {
         margin-top: 0px;
         padding-bottom: 0px;
