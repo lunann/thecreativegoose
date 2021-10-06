@@ -131,6 +131,9 @@
     .row-1 {
         min-height: 0;
     }
+    .col-6 {
+        min-width: 100%;
+    }
     /**GAMMAL**//*
     .row-1 p {
         margin-left: 0px;
@@ -152,9 +155,6 @@
     .row-2 h3, .row-2 p {
        margin-left: 0px !important;
        width: auto;
-    }
-    .col-6 {
-        min-width: 100%;
     }
     #table-info.container {
         padding: 0px;
