@@ -1,6 +1,3 @@
-*, ::after, .row-1::before {
-    box-sizing: content-box !important;
-}
 .aboutPage {
     margin-top: 100px !important;
     padding-bottom: 100px;
