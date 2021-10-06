@@ -427,6 +427,9 @@
     .container, #table-info p, #table-info  .col-sm-4 {
         padding: 0px !important;
     }
+    #table-info.container {
+        padding-bottom: 100px !important; 
+    }
     .row-1 {
         margin: 0 auto;
         padding: 0px !important;
