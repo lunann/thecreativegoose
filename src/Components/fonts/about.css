@@ -303,7 +303,7 @@
         padding-top: 0px;
         border-bottom: 1px solid black;
     }
-    .col-sm-4, .col-6 {
+    .col-sm-4 {
         flex: none !important;
         max-width: none !important;
         border-right: none;
