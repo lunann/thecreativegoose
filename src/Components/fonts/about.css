@@ -288,7 +288,7 @@
         margin: 0 auto;
     }
     .row-2 h3, .row-2 p {
-       margin-left: 0px !important;
+       margin-left: 0 auto !important;
        width: auto;
     }
     #table-info p{
