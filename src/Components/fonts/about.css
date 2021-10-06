@@ -131,7 +131,7 @@
     .row-1 {
         min-height: 0;
     }
-    .col-6 {
+    .col-6, .col-sm-4 {
         min-width: 100%;
     }
     /**GAMMAL**//*
