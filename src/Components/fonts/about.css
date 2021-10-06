@@ -10,6 +10,7 @@
 .container {
     max-width: auto !important;
     padding: 0px !important;
+
 }
 .container h3 {
     text-align: center;
@@ -305,7 +306,7 @@
 }
 @media screen and (max-width: 400px){ 
     .aboutPage {
-        width: 80vw !important;
+        width: 70vw !important;
         padding: 0px !important;
         
         margin-top: 100px !important;
