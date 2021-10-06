@@ -131,10 +131,6 @@
     .row-1 {
         min-height: 0;
     }
-    .col-6, .col-sm-4 {
-        min-width: 100%;
-    }
-    /**GAMMAL**//*
     .row-1 p {
         margin-left: 0px;
     }
@@ -145,17 +141,23 @@
     #image01 {
         text-align: center;
     }
+    .col-6, .col-sm-4 {
+        min-width: 100%;
+    }
     #image02 img{
         width: 0px;
     }
+    .row-2 h3, .row-2 p {
+        margin-left: 0px !important;
+        width: auto;
+     }
+    /**GAMMAL**//*
+    
     .row-2 {
         margin-top: 0px;
         padding-bottom: 0px;
     }
-    .row-2 h3, .row-2 p {
-       margin-left: 0px !important;
-       width: auto;
-    }
+    
     #table-info.container {
         padding: 0px;
         overflow: hidden;
